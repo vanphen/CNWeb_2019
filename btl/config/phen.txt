@@ -1,2 +1,4 @@
-ngo minh sang
-va pham van phen
+<<<<<<< HEAD
+thao
+=======
+van thao
