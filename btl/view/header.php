@@ -86,7 +86,7 @@
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						        <a class="dropdown-item" href="logo.php">Logo khoa CNTT</a>
-					          	<a class="dropdown-item" href="#">Lời chào mừng</a>
+					          	<a class="dropdown-item" href="loichao.php">Lời chào mừng</a>
 					          	<a class="dropdown-item" href="#">Tổ chức</a>
 					          	<a class="dropdown-item" href="#">Hợp tác liên kếtc</a>
 					        </div>

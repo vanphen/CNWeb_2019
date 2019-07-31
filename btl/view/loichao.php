@@ -20,25 +20,25 @@
 			 	</ol>
 				<div class="carousel-inner">
 				    <div class="carousel-item active">
-				    	<img class="d-block w-100" src="public/img/sanh-t54.jpg">
+				    	<img class="d-block w-100" src="../public/img/sanh-t54.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/rivf-gala.jpg">
+				      	<img class="d-block w-100" src="../public/img/rivf-gala.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/khai-truong.jpg">
+				      	<img class="d-block w-100" src="../public/img/khai-truong.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/banner.jpg">
+				      	<img class="d-block w-100" src="../public/img/banner.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/bannertq4.jpg">
+				      	<img class="d-block w-100" src="../public/img/bannertq4.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/hoi-thao.jpg">view/
+				      	<img class="d-block w-100" src="../public/img/hoi-thao.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="public/img/cse-tlu-nara.jpg">
+				      	<img class="d-block w-100" src="../public/img/cse-tlu-nara.jpg">
 				    </div>
 				</div>
 			  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -95,7 +95,7 @@
 												<tr>
 													<td>
 														<span>
-															<img src="public/img/truong-khoa.jpg" alt="" style="height: 302px; width: 350px; text-align: justify;">
+															<img src="../public/img/truong-khoa.jpg" alt="" style="height: 302px; width: 350px; text-align: justify;">
 														</span>
 													</td>
 												</tr>

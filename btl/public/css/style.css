@@ -540,3 +540,8 @@ h1.title {
     float: right;
 }
 /* end logo */
+/* gioi thieu */
+h2.title{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
