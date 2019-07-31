@@ -9,7 +9,7 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="../public/css/style.css">
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
 </head>
 <body>
@@ -32,10 +32,10 @@
 								<li class="language">
 									<span class="language-text"> Ngôn ngữ: </span>
 									<a href="#" title="Tiếng Việt" class="ui-link-white lang-vi">
-										<img src="img/icon-lang-vi.png" alt="">
+										<img src="../public/img/icon-lang-vi.png" alt="">
 									</a>
 									<a href="#" title="Tiếng Anh" class="ui-link-white lang-en">
-										<img src="img/icon-lang-en.png" alt="">
+										<img src="../public/img/icon-lang-en.png" alt="">
 									</a>
 								</li>
 							</ul>
@@ -44,7 +44,7 @@
 									<div class="viewsearch">
 										<i class="ico-search"></i>
 										<input type="text" class="input-text" placeholder="Tim Kiem" autocomplete="off">
-										<input type="image" class="searchbutton" value="tim" src="img/search-icon2.png" width="20px;">
+										<input type="image" class="searchbutton" value="tim" src="../public/img/search-icon2.png" width="20px;">
 									</div>
 								</div>
 							</div>
@@ -58,8 +58,8 @@
 			<div class="container">
 				<div class="header_logo">
 					<h1>
-						<a href="#">
-							<img src="img/logo.jpg" width="547px"; height="82px" alt="">
+						<a href="logo.php">
+							<img src="../public/img/logo.jpg" width="547px"; height="82px" alt="">
 						</a>
 					</h1>
 				</div>
@@ -78,21 +78,21 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-			        		<a class="nav-link" href="#" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
+			        		<a class="nav-link" href="trangchu.php" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
 			      		</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	GIỚI THIỆU
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="#">Logo khoa CNTT</a>
+						        <a class="dropdown-item" href="logo.php">Logo khoa CNTT</a>
 					          	<a class="dropdown-item" href="#">Lời chào mừng</a>
 					          	<a class="dropdown-item" href="#">Tổ chức</a>
 					          	<a class="dropdown-item" href="#">Hợp tác liên kếtc</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	NGHIÊN CỨU KHOA HỌC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -103,7 +103,7 @@
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	ĐÀO TẠO
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -116,7 +116,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	BỘ MÔN - TRUNG TÂM
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -130,7 +130,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	SINH VIÊN
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -143,7 +143,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	TIN TỨC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -152,7 +152,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">
@@ -168,3 +168,4 @@
 			    	</ul>
 			 	</div>
 			</nav>
+	

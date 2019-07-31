@@ -11,25 +11,25 @@
 			 	</ol>
 				<div class="carousel-inner">
 				    <div class="carousel-item active">
-				    	<img class="d-block w-100" src="img/sanh-t54.jpg"">
+				    	<img class="d-block w-100" src="../public/img/sanh-t54.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/rivf-gala.jpg">
+				      	<img class="d-block w-100" src="../public/img/rivf-gala.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/khai-truong.jpg">
+				      	<img class="d-block w-100" src="../public/img/khai-truong.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/banner.jpg">
+				      	<img class="d-block w-100" src="../public/img/banner.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/bannertq4.jpg">
+				      	<img class="d-block w-100" src="../public/img/bannertq4.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/hoi-thao.jpg">
+				      	<img class="d-block w-100" src="../public/img/hoi-thao.jpg">
 				    </div>
 				    <div class="carousel-item">
-				      	<img class="d-block w-100" src="img/cse-tlu-nara.jpg">
+				      	<img class="d-block w-100" src="../public/img/cse-tlu-nara.jpg">
 				    </div>
 				</div>
 			  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -68,7 +68,7 @@
 																<div class="row">
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/cse-hallthumb.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/cse-hallthumb.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 
@@ -80,7 +80,7 @@
 																	</div>
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/gv-khoa-cnttthumb.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/gv-khoa-cnttthumb.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 
@@ -92,7 +92,7 @@
 																	</div>
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/cse-tlu-narathumb.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/cse-tlu-narathumb.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 
@@ -105,7 +105,7 @@
 																	<!-- md 4 -->
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/k54th-tot-nghiep-1thumb.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/k54th-tot-nghiep-1thumb.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 
@@ -118,7 +118,7 @@
 																	<!-- md 4 -->
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/khoa43th.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/khoa43th.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 
@@ -131,7 +131,7 @@
 																	<!-- md 4 -->
 																	<div class="col-md-4 col-sm-6 col-12">
 																		<div class="card-product">
-																			<a href="#"><img class="card-img-top" src="img/cnpm.jpg" alt="Card image cap"> </a>
+																			<a href="#"><img class="card-img-top" src="../public/img/cnpm.jpg" alt="Card image cap"> </a>
 																			<div class="card-body">
 							    												<div class="title">
 																					<a href="#"> 

@@ -371,14 +371,14 @@ input[type="text"] {
 }
 .navbar-light .navbar-nav .nav-link{
     color: #fff;
-    padding-left: 0.95em;
+    padding-left: 1.95em;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color:#ff7800;
 }
 .navbar-light .navbar-nav .nav-link.disabled{
     color: #fff;
-    padding-left: 0.95em;
+    padding-left: 1.95em;
 }
 .navbar-light .navbar-nav .nav-link.disabled:hover{
    color:#ff7800;
@@ -463,3 +463,80 @@ footer .footer_bot .footer_bot-img, .wrapper-left {
     position: absolute;
     top: 2px;
 }
+/*logo*/
+.location .breadcrumb{
+    padding-left: 25px;
+    width: 910px;
+}
+.breadcrumb{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    line-height: 25px;
+    background-color: #003478!important;
+    border-radius: 5px;
+}
+.breadcrumblink{
+    color:white;
+}
+.breadcrumb a:hover{
+    color: #ff7800;
+}
+.main {
+    background: #fff;
+    border: 1px solid #fff;
+    border-top: none;
+    margin-bottom: 15px;
+    min-height: 350px;
+}
+.mainContent-inner {
+    padding: 10px;
+}
+p {
+    margin: 0 0 15px 0;
+}
+.anh img {
+    max-width: 100%!important;
+    height: auto!important;
+}
+h1.title {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.logo{
+    padding-top: 20px;
+}
+.tlu-menu {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+     margin-top: 20px;
+    margin-bottom: 25px;
+}
+.tlu-title{
+    font-size: 30px;
+    line-height: 2;
+    font-family: Calibri;
+}
+.tlu-title a{
+    color: blue;
+}
+.tlu-menu .column-2 ul li a {
+    display: block;
+    line-height: 2;
+    font-size: 1em !important;
+    text-decoration: none;
+    padding: 5px 7px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+.column2 a{
+    color: black !important;
+}
+.unitily {
+    margin: 30px 0;
+}
+.toppage {
+    display: block;
+    float: right;
+}
+/* end logo */
