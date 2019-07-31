@@ -40,21 +40,21 @@
 									<div class="protlet-colum col-md-3">
 										<div class="tlu-menu">
 											<p class="tlu-title">
-												<a href="#" title=""> Giới thiệu</a> 
+												<a href="gioithieu.php" title=""> Giới thiệu</a> 
 											</p>
 											<div class="column-2">
 												<ul>
 													<li>
-													 <a href="#" title=""> > Logo khoa CNTT</a>
+													 <a href="logo.php" title=""> > Logo khoa CNTT</a>
 													</li>
 													<li> 
-														<a href="#" title=""> > Lời chào mừng</a>
+														<a href="loichao.php" title=""> > Lời chào mừng</a>
 													</li>
 													<li>
-													 <a href="#" title=""> > Tổ chức</a>
+													 <a href="tochuc.php" title=""> > Tổ chức</a>
 													</li>
 													<li> 
-														<a href="#" title=""> > Hợp tác liên kết</a>
+														<a href="hoptac.php" title=""> > Hợp tác liên kết</a>
 													</li>
 												</ul>
 											</div>

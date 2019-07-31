@@ -1,10 +1,10 @@
 <?php require_once "header.php";?>
 	<div class="location">
 		<div class="container breadcrumb">
-			<a href="#" title="" class="breadcrumblink"> 
+			<a href="gioithieu.php" title="" class="breadcrumblink"> 
 				<span> Giới thiệu   >   </span>
 			</a>
-			<a href="#" title="" class="breadcrumblink">
+			<a href="loichao.php" title="" class="breadcrumblink">
 				<span> Lời chào mừng</span>
 			</a>
 		</div>
@@ -117,7 +117,7 @@
 											</table>
 										</div>
 										<div class="unitily clearfix">
-											<a href="#" title="">
+											<a href="loichao.php" title="">
 												<span class="toppage">
 													<u> Trở về đầu trang</u>
 												</span>
@@ -127,21 +127,21 @@
 									<div class="protlet-colum col-md-3">
 										<div class="tlu-menu">
 											<p class="tlu-title">
-												<a href="#" title=""> Giới thiệu</a> 
+												<a href="gioithieu.php" title=""> Giới thiệu</a> 
 											</p>
 											<div class="column-2">
 												<ul>
 													<li>
-													 <a href="#" title=""> > Logo khoa CNTT</a>
+													 <a href="logo.php" title=""> > Logo khoa CNTT</a>
 													</li>
 													<li> 
-														<a href="#" title=""> > Lời chào mừng</a>
+														<a href="loichao.php" title=""> > Lời chào mừng</a>
 													</li>
 													<li>
-													 <a href="#" title=""> > Tổ chức</a>
+													 <a href="tochuc.php" title=""> > Tổ chức</a>
 													</li>
 													<li> 
-														<a href="#" title=""> > Hợp tác liên kết</a>
+														<a href="hoptac.php" title=""> > Hợp tác liên kết</a>
 													</li>
 												</ul>
 											</div>
