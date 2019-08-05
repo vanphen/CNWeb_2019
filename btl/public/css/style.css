@@ -500,7 +500,7 @@ p {
     height: auto!important;
 }
 h1.title {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 25px;
 }
 .logo{
@@ -542,6 +542,6 @@ h1.title {
 /* end logo */
 /* gioi thieu */
 h2.title{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 25px;
 }
