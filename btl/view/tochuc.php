@@ -5,7 +5,7 @@
 				<span> Giới thiệu   >   </span>
 			</a>
 			<a href="loichao.php" title="" class="breadcrumblink">
-				<span> Lời chào mừng</span>
+				<span> Tổ chức</span>
 			</a>
 		</div>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -158,13 +158,13 @@
 													<strong> * Khối các đơn vị giảng dạy </strong> 
 												</p>
 											</div>
-											<table>
+											<table style="font-size: 14px;">
 												<tbody>
 													<tr>
 														<td>
 															<p>
 																<span style="font-size:larger;"> 
-																	<a href="#" title="">  - Bộ môn Công nghệ phần mềm </a>
+																	<a href="#" title="">  <u>- Bộ môn Công nghệ phần mềm </u> </a>
 																</span>
 															</p>
 														</td>
@@ -180,7 +180,7 @@
 														<td>
 															<p>			
 																<span style="font-size:larger;"> 
-																	<a href="#" title="">  - Bộ môn Hệ thống thông tin </a>
+																	<a href="#" title="">  <u>- Bộ môn Hệ thống thông tin </u> </a>
 																</span>
 															</p>
 														</td>
@@ -195,7 +195,7 @@
 													<tr>
 														<td>
 															<span style="font-size:larger;"> 
-																<a href="#" title="">  - Bộ môn Khoa học máy tính </a>
+																<a href="#" title="">  <u>- Bộ môn Khoa học máy tính  </u></a>
 															</span>
 														</td>
 														<td>
@@ -207,7 +207,7 @@
 													<tr>
 														<td>
 															<span style="font-size:larger;"> 
-																<a href="#" title="">  - Bộ môn kỹ thuật máy tính và mạng </a>
+																<a href="#" title="">  <u>- Bộ môn kỹ thuật máy tính và mạng </u></a>
 															</span>
 														</td>
 														<td>
@@ -219,11 +219,10 @@
 													<tr>
 														<td>
 															<span style="font-size:larger;"> 
-																<a href="#" title="">  - Bộ môn tin học và kỹ thuật tính toán </a>
+																<a href="#" title="">  <u>- Bộ môn tin học và kỹ thuật tính toán </u> </a>
 															</span>
 														</td>
 														<td>
-
 															<span style="font-size:larger;"> 
 																Trưởng BM - TS Nguyễn Quỳnh Diệp
 															</span>
@@ -232,7 +231,7 @@
 													<tr>
 														<td>
 															<span style="font-size:larger;"> 
-																<a href="#" title="">  - Bộ môn toán học </a>
+																<a href="#" title="">  <u>- Bộ môn toán học </u> </a>						
 															</span>
 														</td>
 														<td>
@@ -243,9 +242,93 @@
 													</tr>
 												</tbody>
 											</table>
+											<p>
+												<strong> * Khối tổ chức đoàn thể</strong>
+											</p>
+											<table style="font-size: 14px;">
+												<tbody>
+													<tr>
+														<td>
+															<span style="font-size: larger;">
+																- Đảng bộ bộ phận khoa Công nghệ thông tin &nbsp; &nbsp;   
+															</span>
+														</td>
+														<td>
+															<span style="font-size: larger;">
+																Bí thư Nguyễn Thanh Tùng
+															</span>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<span style="font-size: larger;">
+																- Công đoàn khoa Công nghệ thông tin   &nbsp; &nbsp;   
+															</span>
+														</td>
+														<td>
+															<span style="font-size: larger;">
+																Chủ tịch Nguyễn Hữu Thọ
+															</span>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<span style="font-size: larger;">
+																- Chi đoàn giáo viên &nbsp; &nbsp;   
+															</span>
+														</td>
+														<td>
+															<span style="font-size: larger;">
+																Bí Thư Đỗ Lân
+															</span>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<span style="font-size: larger;">
+																- Liên chi Khoa CNTT &nbsp; &nbsp;   
+															</span>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+											<p>
+												<strong>
+													* Các phòng thí nghiệm phục vụ công tác đào tạo, nghiên cứu
+												</strong>
+											</p>
+											<p>
+												- Phòng thí nghiệm Khoa học dữ liệu: TS. 
+												<a href="#">
+													<u>Đặng Thị Thu Hiền</u><u></											</a>
+											 </u>	- Trưởng Lab 
+											</p>
+											<p>
+												- Phòng thí nghiệm Mô hình hóa và mô phỏng: TS. 
+												<a href="#">
+													<u> Nguyễn Ngọc Doanh </u> 
+												</a>
+												- Trưởng Lab 
+											</p>
+											<p>
+												- Phòng thí nghiệm Hệ thống mạng: TS.
+												<a href="#">
+													<u> Phạm Tuấn Minh </u>
+												</a>
+												- Trưởng Lab 
+											</p>
+											<p>
+												<span>
+													 &nbsp; &nbsp; &nbsp;Ngoài ra, Khoa còn thành lập một hội đồng Khoa tư vấn cho Trưởng khoa các công việc đào tạo, nghiên cứu cũng như định hướng phát triển của Khoa CNTT
+												</span>
+											</p>
+											<p>
+												<span style="white-space: pre;"></span> &nbsp; &nbsp;&nbsp;Ban chủ nhiệm Khoa đóng vai trò chủ đạo trong việc quyết định mọi dự án cũng như các kế hoạch phát triển của Khoa. Văn phòng Khoa là nơi giải quyết tất cả những thủ tục hành chính của Khoa cũng như quản lý tất cả những thông tin của sinh viên và cán bộ trong Khoa CNTT.
+												
+											</p>
 										</div>
 										<div class="unitily clearfix">
-											<a href="loichao.php" title="">
+											<a href="tochuc.php" title="">
 												<span class="toppage">
 													<u> Trở về đầu trang</u>
 												</span>

@@ -9,7 +9,7 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
-		<link rel="stylesheet" href="../public/css/style.css">
+		<link rel="stylesheet" href="../public/css/style.css" href="../public/css/style.css">
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
 </head>
@@ -105,20 +105,20 @@
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="daotao.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	ĐÀO TẠO
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="#">Đào tạo đại học</a>
-					          	<a class="dropdown-item" href="#">Đào tạo sau đại học</a>
-					          	<a class="dropdown-item" href="#">Chuẩn đầu ra</a>
-					          	<a class="dropdown-item" href="#">Định hướng ngành nghề</a>
-					          	<a class="dropdown-item" href="#">Mô hình đào tạo</a>
-					          	<a class="dropdown-item" href="#">Đề cương môn học</a>
+						        <a class="dropdown-item" href="dtdh.php">Đào tạo đại học</a>
+					          	<a class="dropdown-item" href="dtsdh.php">Đào tạo sau đại học</a>
+					          	<a class="dropdown-item" href="daura.php">Chuẩn đầu ra</a>
+					          	<a class="dropdown-item" href="dinhhuong.php">Định hướng ngành nghề</a>
+					          	<a class="dropdown-item" href="mohinh.php">Mô hình đào tạo</a>
+					          	<a class="dropdown-item" href="decuong.php">Đề cương môn học</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	BỘ MÔN - TRUNG TÂM
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -132,7 +132,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	SINH VIÊN
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -145,7 +145,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	TIN TỨC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -154,7 +154,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">

@@ -548,3 +548,9 @@ h2.title{
 .cardcongtrinh{
     margin-top: 15px;
 }
+.related .related-title {
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 2rem;
+}
