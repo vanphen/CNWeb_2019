@@ -10,6 +10,7 @@
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
 		<link rel="stylesheet" href="../public/css/style.css">
+		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
 </head>
 <body>
@@ -81,7 +82,7 @@
 			        		<a class="nav-link" href="trangchu.php" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
 			      		</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="gioithieu.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
         					  	GIỚI THIỆU
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -92,13 +93,14 @@
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        					  	NGHIÊN CỨU KHOA HỌC
+
+        					<a class="nav-link" href="nckh.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					 	NGIÊN CỨU KHOA HỌC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="#">Các đề tài, dự án</a>
+						        <a class="dropdown-item" href="nckhcacdetaiduan.php">Các đề tài, dự án</a>
 					          	<a class="dropdown-item" href="#">Thông tin seminar</a>
-					          	<a class="dropdown-item" href="#">Công trình công bố</a>
+					          	<a class="dropdown-item" href="congtrinhcongbo.php">Công trình công bố</a>
 					          	<a class="dropdown-item" href="#">Các phòng thí nghiệm</a>
 					        </div>
       					</li>
@@ -163,7 +165,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item">
-			        		<a class="nav-link disabled" href="#" title="Liên hệ">LIÊN HỆ</a>
+			        		<a class="nav-link disabled" href="nckhcacdetaiduan.php" title="Liên hệ">LIÊN HỆ</a>
 			     		</li>
 			    	</ul>
 			 	</div>
