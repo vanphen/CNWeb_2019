@@ -31,7 +31,7 @@
 					</ul>
 				</div>
 				<div class="footer_bot">
-					<img src="img/img-01.png" alt="" class="footer_bot-img">
+					<img src="../public/img/img-01.png" alt="" class="footer_bot-img">
 					<p>© 2017 Khoa Công nghệ thông tin - Đại học Thủy lợi <br> 
              		   Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: 
              		   <a href="#" title="" class="ui-link-white">vpkcntt@tlu.edu.vn</a>
