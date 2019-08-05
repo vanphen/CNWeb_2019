@@ -35,7 +35,7 @@
 					</p>
 				</p>
 				<div class="unitily clearfix">
-					<a href="dinhhuong.php" title="">
+					<a href="decuongphp" title="">
 						<span class="toppage">
 							<u> Trở về đầu trang</u>
 						</span>
@@ -43,7 +43,7 @@
 				</div> 
 			</div>
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="#">Đào tạo</a></h4>
+				<h4><a href="daotao.php">Đào tạo</a></h4>
 
 				<ul class="nckh" type="none">
 					<li>

@@ -132,16 +132,14 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="sinhvien.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	SINH VIÊN
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="#">Thông báo</a>
-					          	<a class="dropdown-item" href="#">TB đào tạo</a>
-					          	<a class="dropdown-item" href="#">Nghiên cứu khoa học</a>
-					          	<a class="dropdown-item" href="#">Tuyển dụng</a>
-					          	<a class="dropdown-item" href="#">Học bổng</a>
-					          	<a class="dropdown-item" href="#">Thông báo khác</a>
+						        <a class="dropdown-item" href="tailieu.php">Tài liệu sinh viên</a>
+					          	<a class="dropdown-item" href="tuvan.php">Tổ tư vấn học tập</a>
+					          	<a class="dropdown-item" href="bieumau.php">Biểu mẫu DATN</a>
+					          	<a class="dropdown-item" href="luanvan.php">Luận văn tốt nghiệp</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
@@ -158,10 +156,12 @@
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">
-						        <a class="dropdown-item" href="#">Logo khoa CNTT</a>
-					          	<a class="dropdown-item" href="#">Lời chào mừng</a>
-					          	<a class="dropdown-item" href="#">Tổ chức</a>
-					          	<a class="dropdown-item" href="#">Hợp tác liên kếtc</a>
+						        <a class="dropdown-item" href="#">Thông báo</a>
+					          	<a class="dropdown-item" href="#">TB Đào tạo</a>
+					          	<a class="dropdown-item" href="#">Nghiên cứu khoa học</a>
+					          	<a class="dropdown-item" href="#">Tuyển dụng</a>
+					          	<a class="dropdown-item" href="#">Học bổng</a>
+					          	<a class="dropdown-item" href="#">Thông báo khác</a>
 					        </div>
       					</li>
 			     		<li class="nav-item">

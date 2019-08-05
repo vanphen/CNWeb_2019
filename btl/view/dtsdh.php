@@ -1,10 +1,10 @@
 <?php require_once "header.php";?>
 <div class="location">
 	<div class="container breadcrumb">
-		<a href="nckh.php" title="" class="breadcrumblink"> 
+		<a href="daotao.php" title="" class="breadcrumblink"> 
 			<span> Đào tạo   >   </span>
 		</a>
-		<a href="logo.php" title="" class="breadcrumblink">
+		<a href="dtsdh.php" title="" class="breadcrumblink">
 			<span> Đào tạo sau đại học</span>
 		</a>
 	
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="#">Đào tạo</a></h4>
+				<h4><a href="daotao.php">Đào tạo</a></h4>
 
 				<ul class="nckh" type="none">
 					<li>

@@ -3,7 +3,7 @@
 	<div class="container detaiduan">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
-				<a href="#"><h3 style="color: #003478">Đào tạo</h3></a>
+				<a href="daotao.php"><h3 style="color: #003478">Đào tạo</h3></a>
 				<div class="cardcongtrinh" >
 					<div class="container">
 						<div class="row">
@@ -141,7 +141,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="#">Đào tạo</a></h4>
+				<h4><a href="daotao.php">Đào tạo</a></h4>
 
 				<ul class="nckh" type="none">
 					<li>
