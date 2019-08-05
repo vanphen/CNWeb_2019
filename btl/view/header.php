@@ -89,7 +89,7 @@
 						        <a class="dropdown-item" href="logo.php">Logo khoa CNTT</a>
 					          	<a class="dropdown-item" href="loichao.php">Lời chào mừng</a>
 					          	<a class="dropdown-item" href="tochuc.php">Tổ chức</a>
-					          	<a class="dropdown-item" href="hoptac.php">Hợp tác liên kếtc</a>
+					          	<a class="dropdown-item" href="hoptac.php">Hợp tác liên kết</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
@@ -99,9 +99,9 @@
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						        <a class="dropdown-item" href="nckhcacdetaiduan.php">Các đề tài, dự án</a>
-					          	<a class="dropdown-item" href="#">Thông tin seminar</a>
+					          	<a class="dropdown-item" href="thongtincenima.php">Thông tin seminar</a>
 					          	<a class="dropdown-item" href="congtrinhcongbo.php">Công trình công bố</a>
-					          	<a class="dropdown-item" href="#">Các phòng thí nghiệm</a>
+					          	<a class="dropdown-item" href="cacphongthinghiem.php">Các phòng thí nghiệm</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
@@ -143,12 +143,12 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="tintuc.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	TIN TỨC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="#">Sự kiện</a>
-					          	<a class="dropdown-item" href="#">CSE trên báo</a>
+						        <a class="dropdown-item" href="sukien.php">Sự kiện</a>
+					          	<a class="dropdown-item" href="CSEtrenbao.php">CSE trên báo</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
