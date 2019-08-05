@@ -30,7 +30,7 @@
 											<p> Phòng làm việc: P204 Tầng 2 nhà C1 </p>
 										</div>
 										<div class="unitily clearfix">
-											<a href="gioithieu.php" title="">
+											<a href="gioithieu.php" title="" class="d-flex justify-content-end trovedautrang">
 												<span class="toppage">
 													<u> Trở về đầu trang</u>
 												</span>
@@ -43,7 +43,7 @@
 												<a href="gioithieu.php" title=""> Giới thiệu</a> 
 											</p>
 											<div class="column-2">
-												<ul>
+												<ul class="nckh">
 													<li>
 													 <a href="logo.php" title=""> > Logo khoa CNTT</a>
 													</li>
@@ -67,6 +67,31 @@
 				</div>
 			</main>
 		</div>
+		<style type="text/css">
+
+		a.trove{
+			color: #0f14a1;
+		}
+		a.d-flex.justify-content-end.trovedautrang {
+			margin-top: 25px;
+			margin-bottom: 20px;
+			color: #0f14a1;
+		}
+		ul.nckh li a {border-bottom: 1px solid #ccc;display: block;text-decoration: none;padding: 10px 7px;line-height: 2;}
+
+		ul.nckh li :hover {
+			background: #ececec;
+			color: #11497a;
+		}
+		.container.detaiduan {
+			margin-top: 50px;
+		}
+		ul.nckhcntt li {
+			font-size: 16px;
+			color: black;
+			list-style-type: none;
+		}
+	</style>
 	</div>
 </div>
 <?php require_once "footer.php";?>
