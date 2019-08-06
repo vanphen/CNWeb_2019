@@ -152,16 +152,16 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="thongbao.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">
-						        <a class="dropdown-item" href="#">Thông báo</a>
-					          	<a class="dropdown-item" href="#">TB Đào tạo</a>
-					          	<a class="dropdown-item" href="#">Nghiên cứu khoa học</a>
-					          	<a class="dropdown-item" href="#">Tuyển dụng</a>
-					          	<a class="dropdown-item" href="#">Học bổng</a>
-					          	<a class="dropdown-item" href="#">Thông báo khác</a>
+						        <a class="dropdown-item" href="thongbao1.php">Thông báo</a>
+					          	<a class="dropdown-item" href="TBdaotao.php">TB Đào tạo</a>
+					          	<a class="dropdown-item" href="nghiencuu.php">Nghiên cứu khoa học</a>
+					          	<a class="dropdown-item" href="tuyendung.php">Tuyển dụng</a>
+					          	<a class="dropdown-item" href="hocbong.php">Học bổng</a>
+					          	<a class="dropdown-item" href="TBkhac.php">Thông báo khác</a>
 					        </div>
       					</li>
 			     		<li class="nav-item">
