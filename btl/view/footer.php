@@ -2,32 +2,32 @@
 			<div class="container">
 				<div class="it-nav-footer">
 					<ul class="nav-footer-link">
-						<li> <a href="#" class="ui-link-white"> Giới thiệu</a></li>
-						<li> <a href="#" class="ui-link-white"> Logo của khoa CNTT</a></li>
-						<li> <a href="#" class="ui-link-white"> Lời chào mừng</a></li>
-						<li> <a href="#" class="ui-link-white"> Tổ chức</a></li>
-						<li> <a href="#" class="ui-link-white"> Hợp tác liên kết</a></li>
+						<li> <a href="gioithieu.php" class="ui-link-white"> Giới thiệu</a></li>
+						<li> <a href="logo.php" class="ui-link-white"> Logo của khoa CNTT</a></li>
+						<li> <a href="loichao.php" class="ui-link-white"> Lời chào mừng</a></li>
+						<li> <a href="tochuc.php" class="ui-link-white"> Tổ chức</a></li>
+						<li> <a href="hoptac.php" class="ui-link-white"> Hợp tác liên kết</a></li>
 					</ul>
 					<ul class="nav-footer-link">
-						<li> <a href="#" class="ui-link-white"> Đào tạo</a></li>
-						<li> <a href="#" class="ui-link-white"> Mô hình đào tạo</a></li>
-						<li> <a href="#" class="ui-link-white"> Đào tạo đại học</a></li>
-						<li> <a href="#" class="ui-link-white"> Định hướng ngành nghề</a></li>
-						<li> <a href="#" class="ui-link-white"> Đào tạo sau đại học</a></li>
+						<li> <a href="daotao.php" class="ui-link-white"> Đào tạo</a></li>
+						<li> <a href="mohinh.php" class="ui-link-white"> Mô hình đào tạo</a></li>
+						<li> <a href="dtdh.php" class="ui-link-white"> Đào tạo đại học</a></li>
+						<li> <a href="dinhhuong.php" class="ui-link-white"> Định hướng ngành nghề</a></li>
+						<li> <a href="dtsdh.php" class="ui-link-white"> Đào tạo sau đại học</a></li>
 					</ul>
 					<ul class="nav-footer-link">
-						<li> <a href="#" class="ui-link-white"> Nghiên cứu khoa học</a></li>
-						<li> <a href="#" class="ui-link-white"> Thông tin seminar</a></li>
-						<li> <a href="#" class="ui-link-white"> Các đề tài, dự án</a></li>
-						<li> <a href="#" class="ui-link-white"> CÔng trình công bố</a></li>
-						<li> <a href="#" class="ui-link-white"> Các phòng thí nghiệm</a></li>
+						<li> <a href="nckh.php" class="ui-link-white"> Nghiên cứu khoa học</a></li>
+						<li> <a href="thongtincenima.php" class="ui-link-white"> Thông tin seminar</a></li>
+						<li> <a href="nckhcacdetaiduan.php" class="ui-link-white"> Các đề tài, dự án</a></li>
+						<li> <a href="congtrinhcongbo.php" class="ui-link-white"> CÔng trình công bố</a></li>
+						<li> <a href="cacphongthinghiem.php" class="ui-link-white"> Các phòng thí nghiệm</a></li>
 					</ul>
 					<ul class="nav-footer-link">
-						<li> <a href="#" class="ui-link-white"> Công nghệ phần mềm</a></li>
-						<li> <a href="#" class="ui-link-white"> Hệ thống thông tin</a></li>
-						<li> <a href="#" class="ui-link-white"> Khoa học máy tính</a></li>
-						<li> <a href="#" class="ui-link-white"> Kỹ thuật máy tính và mạng</a></li>
-						<li> <a href="#" class="ui-link-white"> Toán học</a></li>
+						<li> <a href="congnghephanmem.php" class="ui-link-white"> Công nghệ phần mềm</a></li>
+						<li> <a href="hethongthongtin.php" class="ui-link-white"> Hệ thống thông tin</a></li>
+						<li> <a href="khoahocmaytinh.php" class="ui-link-white"> Khoa học máy tính</a></li>
+						<li> <a href="kythuatmaytinh.php" class="ui-link-white"> Kỹ thuật máy tính và mạng</a></li>
+						<li> <a href="toanhoc.php" class="ui-link-white"> Toán học</a></li>
 					</ul>
 				</div>
 				<div class="footer_bot">
