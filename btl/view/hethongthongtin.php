@@ -262,7 +262,7 @@
 				<h4><a href="#">Tin tức</a></h4>
 
 				<ul class="nckh" type="none">
-						<li>
+					<li>
 						<a href="congnghephanmem.php" title=""> > CN phần mềm </a>
 					</li>
 					<li> 

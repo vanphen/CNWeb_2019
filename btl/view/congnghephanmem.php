@@ -246,13 +246,6 @@
 
 
 
-  							    <a class="dropdown-item" href="congnghephanmem.php">CN phần mềm</a>
-					          	<a class="dropdown-item" href="hethongthongtin.php">Hệ thống thông tin</a>
-					          	<a class="dropdown-item" href="khoahocmaytinh.php">Khoa học máy tính</a>
-					          	<a class="dropdown-item" href="kythuatmaytinh.php">Kỹ thuật máy tính và mạng</a>
-					          	<a class="dropdown-item" href="toanhoc.php">Toán học</a>
-					          	<a class="dropdown-item" href="tinhocvakythuat.php">Tin học và kỹ thuật tính toán</a>
-					          	<a class="dropdown-item" href="trungtamtinhoc.php">Trung tâm tin học</a>
 
 
 

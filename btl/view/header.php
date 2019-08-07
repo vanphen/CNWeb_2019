@@ -165,7 +165,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item">
-			        		<a class="nav-link disabled" href="nckhcacdetaiduan.php" title="Liên hệ">LIÊN HỆ</a>
+			        		<a class="nav-link disabled" href="lienhe.php" title="Liên hệ">LIÊN HỆ</a>
 			     		</li>
 			    	</ul>
 			 	</div>
