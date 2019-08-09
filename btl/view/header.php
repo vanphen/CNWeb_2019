@@ -9,8 +9,14 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
+<<<<<<< HEAD
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
+=======
+		<link rel="stylesheet" href="../public/css/style.css" href="../public/css/style.css">
+		<link rel="stylesheet" type="text/css" href="../public/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
+>>>>>>> 4b39b43cee02a50c332881fda8f1ea90f72019b2
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
 </head>
@@ -27,9 +33,9 @@
 							<!-- class lable -->
 							<ul class="list-top">
 								<li>(+) | </li>
-								<li> <a href="#">Login</a></li>
+								<li> <a href="#" class="md-trigger" data-modal="modal-1">Login</a></li>
 								<li>|</li>
-								<li> <a href="#"> Register</a></li>
+								<li> <a href="#" class="md-trigger" data-modal="modal-2"> Register</a></li>
 								<li>|</li>
 								<li class="language">
 									<span class="language-text"> Ngôn ngữ: </span>
@@ -45,7 +51,7 @@
 								<div class="dnn_Search">
 									<div class="viewsearch">
 										<i class="ico-search"></i>
-										<input type="text" class="input-text" placeholder="Tim Kiem" autocomplete="off">
+										<input type="text" class="texttimkiem" placeholder="Tim Kiem" autocomplete="off">
 										<input type="image" class="searchbutton" value="tim" src="../public/img/search-icon2.png" width="20px;">
 									</div>
 								</div>
@@ -171,4 +177,91 @@
 			    	</ul>
 			 	</div>
 			</nav>
+					<!-- form login -->
+					<div class="md-modal md-effect-1" id="modal-1">
+						<button class="md-close btn btn-danger ">Close me!</button>
+						<div class="md-content container login-container login-form-1">
+							<h3>ĐĂNG NHẬP </h3>
+							<form>
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Your Email *" value="" />
+									
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control" placeholder="Your Password *" value="" />
+								</div>
+								<div class="form-group">
+									<input type="submit" class="btnSubmit" value="Login" />
+								</div>
+								<div class="form-group">
+									<a href="#" class="ForgetPwd">Forget Password?</a>
+								</div>
+							</form>
+
+
+
+						</div>
+					</div>
+					<!-- // form register -->
+
+					<div class="md-modal md-effect-2" id="modal-2">
+
+						<button class="md-close btn btn-danger  ">Close me!</button>
+
+
+						<div class="md-content container login-container login-form-1">
+
+							<h3>Đăng ký</h3>
+							<form role="form">
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6">
+										<div class="form-group">
+											<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6">
+										<div class="form-group">
+											<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group">
+									<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
+								</div>
+
+								<div class="row">
+									<div class="col-xs-6 col-sm-6 col-md-6">
+										<div class="form-group">
+											<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
+										</div>
+									</div>
+									<div class="col-xs-6 col-sm-6 col-md-6">
+										<div class="form-group">
+											<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+										</div>
+									</div>
+								</div>
+
+								<input type="submit" value="Register" class="btn btn-primary">
+
+							</form>
+
+						</div>
+					</div>
+
+
+
+								
+
+
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<script src="../public/js/classie.js"></script>
+		<script src="../public/js/modalEffects.js"></script>
+		
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
 	

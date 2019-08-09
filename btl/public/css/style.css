@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 /* search */
-input[type="text"] {
+.texttimkiem {
     background-color: #fff;
     border: 0px solid #e0e0e0;
     border-radius: 3px;
