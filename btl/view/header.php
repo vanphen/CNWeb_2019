@@ -9,14 +9,10 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
-<<<<<<< HEAD
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
-=======
-		<link rel="stylesheet" href="../public/css/style.css" href="../public/css/style.css">
-		<link rel="stylesheet" type="text/css" href="../public/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="../public/css/default.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
->>>>>>> 4b39b43cee02a50c332881fda8f1ea90f72019b2
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
 </head>
@@ -51,8 +47,8 @@
 								<div class="dnn_Search">
 									<div class="viewsearch">
 										<i class="ico-search"></i>
-										<input type="text" class="texttimkiem" placeholder="Tim Kiem" autocomplete="off">
-										<input type="image" class="searchbutton" value="tim" src="../public/img/search-icon2.png" width="20px;">
+										<input type="text" class="texttimkiem" placeholder="Tìm Kiếm" autocomplete="off">
+										<input type="image" class="searchbutton" value="tim" src="../public/img/icons8-search-64.png" width="20px;" height="20px;">
 									</div>
 								</div>
 							</div>

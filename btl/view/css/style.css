@@ -552,7 +552,7 @@ footer .footer_bot .footer_bot-img,
 /*logo*/
 .location .breadcrumb {
     padding-left: 25px;
-    width: 910px;
+    width: 1100px;
 }
 .breadcrumb {
     padding: 0;
@@ -827,7 +827,7 @@ a.btn-style-1 {
     padding-bottom: 50px;
     z-index: 999;
     padding-left: 35px;
-    padding: 20px;
+    padding: 39px;
 }
 .img-caption h3 a {
     text-align: center;
