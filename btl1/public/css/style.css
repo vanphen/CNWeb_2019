@@ -11,9 +11,9 @@ body{
     width: 100%;
     z-index: 999;
 }
-.container {
+/* .container {
     max-width: 940px;
-}
+} */
 .container {
     display: block;
     margin-left: auto;
@@ -553,4 +553,319 @@ h2.title{
 }
 h1 {
     font-size: 2rem;
+}
+/* thu */
+/* css thử */
+.home-contact-panel {
+    padding: 40px 0 0 0;
+}
+.home-contact-panel {
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+.ci-box {
+    background: #c5deff;
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    padding: 70px 20px 30px;
+    position: relative;
+}
+.ci-box.c1 .hcp-icon {
+    background: #eab830;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-phone:before {
+    content: "\f095";
+}
+.ci-box.c1:hover .hcp-icon {
+    background: #fff;
+    color: #eab830;
+}
+.ci-box strong a {
+    color: #333;
+}
+.ci-box.c1:hover strong a, .ci-box.c2:hover strong a, .ci-box.c3:hover strong a, .ci-box.c4:hover strong a {
+    color: #fff;
+}
+.ci-box.c1:hover strong {
+    background: #eab830;
+    color: #fff;
+}
+.ci-box strong {
+    color: #333;
+    border: 1px solid #e6e6e6;
+    font-family: 'Poppins',sans-serif;
+    display: block;
+    line-height: 56px;
+    background: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hcp-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #eab830;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px solid #f5f5f5;
+    top: -50px;
+}
+.ci-box.c2 .hcp-icon {
+    background: #09c5ff;
+}
+.ci-box.c2:hover .hcp-icon {
+    background: #fff;
+    color: #6ad59a;
+}
+.ci-box.c2:hover strong {
+    background: #09c5ff;
+    color: #fff;
+}
+.ci-box.c3 .hcp-icon {
+    background: #fa394a;
+}
+.ci-box.c3:hover .hcp-icon {
+   background: #fff;
+    color: #fa394a;
+}
+.ci-box.c3:hover strong {
+   background: #fa394a;
+    color: #fff;
+}
+.h1-welcome {
+    margin-bottom: 50px;
+}
+.welcome-box {
+    padding-right: 40px;
+}
+.welcome-title strong {
+    text-transform: uppercase;
+    color: #fa394a;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.welcome-title h1 {
+    font-size: 24px;
+}
+.welcome-title h1 {
+    border-top: 1px solid #e1e1e1;
+    position: relative;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+.welcome-box p {
+    margin-bottom: 20px;
+    line-height: 30px;
+    color: #666666;
+    font-size: 16px;
+}
+.welcome-title h1:after {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    background: #fa394a;
+    content: "";
+    height: 3px;
+    width: 100px;
+}
+a.btn-style-1:hover {
+    color: #fff;
+    background-color: #fa394a;
+}
+a.btn-style-1 {
+    display: inline-block;
+    border: 1px solid #18254a;
+    line-height: 48px;
+    padding: 0 30px;
+    color: #18254a;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+}
+.news-box {
+    width: 100%;
+    float: left;
+    box-shadow: 0 3px 8px rgba(0,0,0,.0);
+}
+.news-box.img-post .news-thumb {
+    height: 230px;
+}
+.news-thumb {
+    position: relative;
+    overflow: hidden;
+}
+.news-box .img-caption {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 50px;
+    padding-left: 35px;
+}
+.img-caption h3 a {
+    text-align: center;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+/* css tin tức thông báo sự kiện */
+.home1-news {
+    padding: 50px 0 0;
+}
+.home1-news {
+    width: 100%;
+    background: #ebebeb;
+}
+.home1-news .container {
+    position: relative;
+}
+.isotope.items {
+    margin: 0 -15px;
+}
+.isotope .item {
+    float: left;
+}
+.home1-news .item {
+    margin-bottom: 30px;
+}
+.news-thumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background: rgba(0,0,0,.40);
+    content: "";
+    opacity: 0;
+}
+.news-excerpt {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 28px 30px 25px;
+}
+.news-box span.post-date {
+    color: #999999;
+}
+.news-box:hover {
+    box-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+.news-box:hover a.news-details {
+    background: #294373;
+    color: #fff;
+}
+.news-box a.news-details {
+    width: 100%;
+    display: block;
+    background: #fa394a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.tach-khoi {
+    height: 30px;
+}
+.news-box .img-caption span.post-date, .news-box .img-caption h4 a {
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.50);
+}
+.meet-professors {
+    background: url(/public/img/professor-bg.jpg) no-repeat center center;
+    background-image:"public/img/professor-bg.jpg";
+    width: 100%;
+    background-size: cover;
+}
+.home1-departments {
+    padding: 40px 0 40px;
+}
+.home1-departments {
+    background: url(/sites/all/themes/fit/assets/images/h1deprt-bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding: 40px 0 80px;
+}
+.home1-departments .stitle {
+    color: black;
+    font-size: 14pt;
+    font-weight: 600;
+}
+.stitle {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    font-size: 14pt;
+    font-weight: 600;
+}
+.stitle:after {
+    background: url(/sites/all/themes/fit/assets/images/titleicon.png);
+    width: 20px;
+    height: 23px;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.home1-departments .dprt-box h5 {
+    line-height: 1.8;
+    color: black;
+    letter-spacing: 0.7px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.dprt-box:after {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0,0,0,.1);
+    content: "";
+    opacity: 0;
+}
+.dprt-box:hover:after {
+    height: 100%;
+    opacity: 1;
+}
+.dprt-box {
+    width: 100%;
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
 }
