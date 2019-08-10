@@ -298,7 +298,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="welcome-title">
-								<strong> Tin tức</strong>
+								<strong> Sinh Viên</strong>
 								<h1></h1>
 							</div>
 						</div>
@@ -309,27 +309,14 @@
 										<div class="content">
 											<div class="view">
 												<div class="view-content">
-													
 													<div class="news-box">
 														<div class="views-field views-field-nothing">
 															<span class="field-content">
 																<div class="news-thumb">
-																	<img src="../public/img/300x450_khu_b-deskop25.1.2019.jpg" alt="" width="100%">
+																	<a href="#" title="">
+																		<img src="../public/img/tlu_futurestudents_banner_vi.png" alt="" width="100%">
+																	</a>
 																</div>
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
-																	</span>
-																	<h5>
-																		<a href="#">
-																			Chỉ tiêu tuyển sinh và phương thức tuyển sinh Đại học, Cao đẳng năm 2019 - Trường ĐH Thủy Lợi
-																		</a>
-																	</h5>
-																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
 																<div class="tach-khoi"></div>
 															</span>
 														</div>
@@ -348,28 +335,14 @@
 										<div class="content">
 											<div class="view">
 												<div class="view-content">
-													<div class="welcome-title">
-													</div>
 													<div class="news-box">
 														<div class="views-field views-field-nothing">
 															<span class="field-content">
 																<div class="news-thumb">
-																	<img src="../public/img/300x450_khu_b-deskop25.1.2019.jpg" alt="" width="100%">
+																	<a href="#" title="">
+																		<img src="../public/img/tlu_curentstudents_banner_vi.png" alt="" width="100%">
+																	</a>
 																</div>
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
-																	</span>
-																	<h5>
-																		<a href="#">
-																			Chỉ tiêu tuyển sinh và phương thức tuyển sinh Đại học, Cao đẳng năm 2019 - Trường ĐH Thủy Lợi
-																		</a>
-																	</h5>
-																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
 																<div class="tach-khoi"></div>
 															</span>
 														</div>
@@ -388,28 +361,14 @@
 										<div class="content">
 											<div class="view">
 												<div class="view-content">
-													<div class="welcome-title">
-													</div>
 													<div class="news-box">
 														<div class="views-field views-field-nothing">
 															<span class="field-content">
 																<div class="news-thumb">
-																	<img src="../public/img/300x450_khu_b-deskop25.1.2019.jpg" alt="" width="100%">
+																	<a href="#" title="">
+																		<img src="../public/img/tlu_alumnistudents_banner_vi.png" alt="" width="100%">
+																	</a>
 																</div>
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
-																	</span>
-																	<h5>
-																		<a href="#">
-																			Chỉ tiêu tuyển sinh và phương thức tuyển sinh Đại học, Cao đẳng năm 2019 - Trường ĐH Thủy Lợi
-																		</a>
-																	</h5>
-																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
 																<div class="tach-khoi"></div>
 															</span>
 														</div>
@@ -419,6 +378,12 @@
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="col-md-12">
+								<ul>
+									<li style="list-style: disc;"><a href="#" title=""> Thông tin cựu sinh viên</a></li>
+									<li style="list-style: disc;"><a href="#" title=""> Các cựu sinh viên có thành tích cao</a></li>
+								</ul>	
 							</div>
 						</div>
 						<div class="col-md-12">
