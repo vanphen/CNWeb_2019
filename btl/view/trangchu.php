@@ -124,10 +124,8 @@
 												</h1>
                                         </div>
                                         <p style="text-align: justify;">
-                                            Khoa CNTT – Trường Đại học Hàng hải Việt Nam thành lập ngày 18/12/1997. Tiền thân của khoa là Trung tâm CNTT được thành lập từ ngày 17/9/1996 với 2 nhiệm vụ cơ bản là: Đào tạo chuyên ngành CNTT hệ Cao đẳng chính quy và Giảng dạy 2 môn Tin học Đại cương và Tin học ứng dụng cho toàn Trường.
-                                        </p>
-                                        <p style="text-align: justify;">
-                                            Ngay sau khi thành lập, Khoa được giao nhiệm vụ: Đào tạo chuyên ngành CNTT hệ Đại học chính quy, Đào tạo chuyên ngành, CNTT hệ Đại học không chính quy, Đào tạo chuyên ngành CNTT hệ Cao đẳng chính quy, Giảng dạy 2 môn học Tin học đại cương và Tin học ứng dụng cho các Khoa khác trong toàn Trường.
+                                            Năm 2001, lãnh đạo Bộ Nông nghiệp & PTNT, lãnh đạo trường Đại học Thủy lợi khi đó đã nhận ra xu hướng và cơ hội của ngành Công nghệ thông tin (CNTT) trong tương lai, đồng thời cũng do nhu cầu bức thiết về đội ngũ kỹ sư công nghệ thông tin trong ngành và toàn xã hội, khoa CNTT được thành lập ngày 19/11/2001 từ việc sáp nhập Trung tâm tin học và Bộ môn Toán học của trường. 
+                                             Kể từ khi thành lập, Khoa CNTT đã phát triển không ngừng. Bước trưởng thành quan trọng nhất được thể hiện qua sự đổi mới, kiện toàn chương trình đào tạo. Bắt đầu từ năm 2007, Khoa đã tập trung thực hiện  việc chuyển đổi toàn bộ chương trình, giáo trình đào tạo, thiết kế theo cùng ngành của trường ĐH Michigan- Hoa kỳ. 
                                         </p>
                                         <p>
                                             <a href="#" class="btn-style-1">Xem chi tiết</a>
@@ -198,15 +196,15 @@
                                                     <div class="news-box img-post">
                                                         <div class="views-field views-field-nothing">
                                                             <span class="field-content">
-																	<div class="news-thumb">
-																		<div class="img-caption">
-																			<h3>
-																				<a href="#" title="">Hệ thống thông tin</a>
-																			</h3>
-																		</div>
-																		<img src="../public/img/cong-nghe-thong-tin_0.jpg" alt="" class="img-responsive" width="262" height="200">		
+																<div class="news-thumb">
+																	<div class="img-caption">
+																		<h3>
+																			<a href="#" title="">Hệ thống thông tin</a>
+																		</h3>
 																	</div>
-																</span>
+																	<img src="../public/img/cong-nghe-thong-tin_0.jpg" alt="" class="img-responsive" width="262" height="200">		
+																</div>
+															</span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -220,207 +218,528 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container">
-				<img src="img/sile1.jpg" alt="">
-			</div> -->
-			<div class="home1-departments" >
-				<div class="container">
-					<h3 class="stitle">
-						<span class="post-date">
-							<i class="fas icons8-phone">
-								<img src="../public/img/icons8-star-64.png" alt="" width="30" height="30">
-							</i>
-							CÁC CÂU LẠC BỘ - HOẠT ĐỘNG NHÓM
-						</span>
-					</h3>
-					<div class="row">
-						<div class="col-md-3 col-sm-3">
-							<div class="dprt-box c1	">
-								<a href="#gfdgđgfd">
-									<img src="../public/img/CLBTinHoc.jpg" alt="">
-								</a>
-								<a href="#cfd" title="ảnh đ">
-									<h5>
-										CÂU LẠC BỘ 
-										<br>
-										TIN HỌC
-									</h5>
-								</a>
-							</div> 
-						</div> 
-						<div class="col-md-3 col-sm-3">
-							<div class="dprt-box c1	">
-								<a href="#">
-									<img src="../public/img/CLBOlympic.jpg" alt="">
-								</a>
-								<a href="#" title="">
-									<h5>
-										CÂU LẠC BỘ
-										<br>
-										NGHIÊN CỨU KHOA HỌC
-									</h5>
-								</a>
-							</div> 
-						</div> 
-						<div class="col-md-3 col-sm-3">
-							<div class="dprt-box c1	">
-								<a href="#">
-									<img src="../public/img/HDDoan.jpg" alt="">
-								</a>
-								<a href="#" title="">
-									<h5>
-										HOẠT ĐỘNG
-										<br>
-										ĐOÀN
-									</h5>
-								</a>
-							</div> 
-						</div> 
-						<div class="col-md-3 col-sm-3">
-							<div class="dprt-box c1	">
-								<a href="#">
-									<img src="../public/img/67329439_2349681721980638_246758957920550912_n.jpg" alt="" width="230px" height="195px;" >
-								</a>
-								<a href="#" title="">
-									<h5>
-										HOẠT ĐỘNG 
-										<br>
-										THỂ THAO VĂN NGHỆ
-									</h5>
-								</a>
-							</div> 
-						</div> 
+      	 <div class="home1-news portfolio filter-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="welcome-title">
+							<strong> TIN TỨC</strong>
+							<h1></h1>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="views-field views-field-nothing">
+																	<span class="field-content">
+																		<div class="news-thumb">
+																			<img src="../public/img/_MG_0881.jpg" alt="" width="100%">
+																		</div>
+																		<div class="news-excerpt">
+																			<span class="post-date">
+																				<i class="fas icons8-phone">
+																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
+																				</i>
+																				18/03/2019
+																			</span>
+																			<h4>
+																				<a href="#">
+																					Chỉ tiêu tuyển sinh và phương thức tuyển sinh Đại học, Cao đẳng năm 2019 - Trường ĐH Thủy Lợi
+																				</a>
+																			</h4>
+																		</div>
+																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																		<div class="tach-khoi"></div>
+																	</span>
+																</div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="views-field views-field-nothing">
+																	<span class="field-content">
+																		<div class="news-thumb">
+																			<img src="../public/img/diemchuanthumb.jpg" alt="" width="100%" height="233px">
+																		</div>
+																		<div class="news-excerpt">
+																			<span class="post-date">
+																				<i class="fas icons8-phone">
+																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
+																				</i>
+																				18/03/2019
+																			</span>
+																			<h4>
+																				<a href="#">
+																					Điểm chuẩn chính thức các ngành học năm 2019 - Trường ĐH Thủy Lợi
+																				</a>
+																			</h4>
+																		</div>
+																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																		<div class="tach-khoi"></div>
+																	</span>
+																</div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="views-field views-field-nothing">
+																	<span class="field-content">
+																		<div class="news-thumb">
+																			<img src="../public/img/diemchuanthumb.jpg" alt="" width="100%">
+																		</div>
+																		<div class="news-excerpt">
+																			<span class="post-date">
+																				<i class="fas icons8-phone">
+																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
+																				</i>
+																				18/07/2019
+																			</span>
+																			<h4>
+																				<a href="#">
+																					Điểm chuẩn chính thức các ngành học năm 2019 - Trường ĐH Thủy Lợi
+																				</a>
+																			</h4>
+																		</div>
+																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																		<div class="tach-khoi"></div>
+																	</span>
+																</div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="home1-news portfolio filter-news">
-				<div class="container">
-					<div class="row">
+		</div>
+        <div class="home1-news portfolio filter-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="welcome-title">
+							<strong> THÔNG BÁO</strong>
+							<h1></h1>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="news-excerpt">
+																	<span class="post-date">
+																		<i class="fas icons8-phone">
+																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
+																		</i>
+																		18/03/2019
+																	</span>
+																	<h5>
+																		<a href="#">
+																			THÔNG BÁO VỀ KẾT QUẢ HỌC TẬP - HỌC KỲ 2 NĂM HỌC 2018-2019
+																		</a>
+																	</h5>
+																</div>
+																<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																<div class="tach-khoi"></div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="news-excerpt">
+																	<span class="post-date">
+																		<i class="fas icons8-phone">
+																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
+																		</i>
+																		18/03/2019
+																	</span>
+																	<h5>
+																		<a href="#">
+																			THÔNG BÁO VỀ VIỆC PHÁT TÀI LIỆU HỌC TẬP HỌC KỲ PHỤ NĂM HỌC
+																			2019-2020
+																		</a>
+																	</h5>
+																</div>
+																<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																<div class="tach-khoi"></div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="view-row-1">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-box">
+																<div class="news-excerpt">
+																	<span class="post-date">
+																		<i class="fas icons8-phone">
+																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
+																		</i>
+																		18/03/2019
+																	</span>
+																	<h5>
+																		<a href="#">
+																			THÔNG BÁO KẾ HOẠCH ĐĂNG KÝ HỌC PHẦN CHO HỌC KỲ I NĂM HỌC
+																			2019-2020
+																		</a>
+																	</h5>
+																</div>
+																<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																<div class="tach-khoi"></div>
+															</div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div>
+		 <div class="home1-news portfolio filter-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="welcome-title">
+							<strong> SỰ KIỆN</strong>
+							<h1></h1>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="view-content">
+							<div class="view-row-1">
+								<div class="views-field">
+									<span class="field-content">
+										<div class="news-box">
+											<div class="news-thumb">
+												<div class="img-caption">
+													<span class="post-date">
+														<i class="fas icons8-phone">
+															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
+														</i>
+														05/06/2019
+													</span>
+													<h5>
+														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
+													</h5>
+												</div>
+												<img src="../public/img/events1_2.jpg" alt="">
+											</div>
+											<div class="tach-khoi"></div>
+										</div>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="view-content">
+							<div class="view-row-1">
+								<div class="views-field">
+									<span class="field-content">
+										<div class="news-box">
+											<div class="news-thumb">
+												<div class="img-caption">
+													<span class="post-date">
+														<i class="fas icons8-phone">
+															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
+														</i>
+														05/06/2019
+													</span>
+													<h5>
+														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
+													</h5>
+												</div>
+												<img src="../public/img/tai_xuong_1_1.jpg" alt="">
+											</div>
+											<div class="tach-khoi"></div>
+										</div>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="view-content">
+							<div class="view-row-1">
+								<div class="views-field">
+									<span class="field-content">
+										<div class="news-box">
+											<div class="news-thumb">
+												<div class="img-caption">
+													<span class="post-date">
+														<i class="fas icons8-phone">
+															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
+														</i>
+														05/06/2019
+													</span>
+													<h5>
+														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
+													</h5>
+												</div>
+												<img src="../public/img/cdio.png" alt="">
+											</div>
+											<div class="tach-khoi"></div>
+										</div>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div>
+		<div class="home1-departments" >
+			<div class="container">
+				<h3 class="stitle">
+					<span class="post-date">
+						<i class="fas icons8-phone">
+							<img src="../public/img/icons8-star-64.png" alt="" width="30" height="30">
+						</i>
+						CÁC CÂU LẠC BỘ - HOẠT ĐỘNG NHÓM
+					</span>
+				</h3>
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="dprt-box c1	">
+							<a href="#gfdgđgfd">
+								<img src="../public/img/CLBTinHoc.jpg" alt="">
+							</a>
+							<a href="#cfd" title="ảnh đ">
+								<h5>
+									CÂU LẠC BỘ 
+									<br>
+									TIN HỌC
+								</h5>
+							</a>
+						</div> 
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="dprt-box c1	">
+							<a href="#">
+								<img src="../public/img/CLBOlympic.jpg" alt="">
+							</a>
+							<a href="#" title="">
+								<h5>
+									CÂU LẠC BỘ
+									<br>
+									NGHIÊN CỨU KHOA HỌC
+								</h5>
+							</a>
+						</div> 
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="dprt-box c1	">
+							<a href="#">
+								<img src="../public/img/HDDoan.jpg" alt="">
+							</a>
+							<a href="#" title="">
+								<h5>
+									HOẠT ĐỘNG
+									<br>
+									ĐOÀN
+								</h5>
+							</a>
+						</div> 
+					</div> 
+					<div class="col-md-3 col-sm-3">
+						<div class="dprt-box c1	">
+							<a href="#">
+								<img src="../public/img/67329439_2349681721980638_246758957920550912_n.jpg" alt="" width="230px" height="195px;" >
+							</a>
+							<a href="#" title="">
+								<h5>
+									HOẠT ĐỘNG 
+									<br>
+									THỂ THAO VĂN NGHỆ
+								</h5>
+							</a>
+						</div> 
+					</div> 
+				</div>
+			</div>
+		</div>
+		<div class="home1-news portfolio filter-news">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="welcome-title">
+							<strong> Sinh Viên</strong>
+							<h1></h1>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="news-box">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-thumb">
+																<a href="#" title="">
+																	<img src="../public/img/tlu_futurestudents_banner_vi.png" alt="" width="100%">
+																</a>
+															</div>
+															<div class="tach-khoi"></div>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="col-md-12">
-							<div class="welcome-title">
-								<strong> Sinh Viên</strong>
-								<h1></h1>
-							</div>
+							<ul style="padding-left: 5px;">
+								<li style="list-style: disc;"><a href="#" title=""> Thông tin sinh viên mới vào khoa cần biết</a></li>
+								<li style="list-style: disc;"><a href="#" title=""> Các thông báo mới nhất về tuyển sinh </a></li>
+							</ul>	
 						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="news-box">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-thumb">
-																	<a href="#" title="">
-																		<img src="../public/img/tlu_futurestudents_banner_vi.png" alt="" width="100%">
-																	</a>
-																</div>
-																<div class="tach-khoi"></div>
-															</span>
-														</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="news-box">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-thumb">
+																<a href="#" title="">
+																	<img src="../public/img/tlu_curentstudents_banner_vi.png" alt="" width="100%">
+																</a>
+															</div>
+															<div class="tach-khoi"></div>
+														</span>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="news-box">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-thumb">
-																	<a href="#" title="">
-																		<img src="../public/img/tlu_curentstudents_banner_vi.png" alt="" width="100%">
-																	</a>
-																</div>
-																<div class="tach-khoi"></div>
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="news-box">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-thumb">
-																	<a href="#" title="">
-																		<img src="../public/img/tlu_alumnistudents_banner_vi.png" alt="" width="100%">
-																	</a>
-																</div>
-																<div class="tach-khoi"></div>
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-12">
-								<ul>
-									<li style="list-style: disc;"><a href="#" title=""> Thông tin cựu sinh viên</a></li>
-									<li style="list-style: disc;"><a href="#" title=""> Các cựu sinh viên có thành tích cao</a></li>
-								</ul>	
 							</div>
 						</div>
 						<div class="col-md-12">
-							<div class="welcome-title">
-								<strong> Sự kiện</strong>
-								<h1></h1>
-							</div>
+							<ul style="padding-left: 5px;">
+								<li style="list-style: disc;"><a href="#" title=""> Thông tin đăng ký học</a></li>
+								<li style="list-style: disc;"><a href="#" title=""> Các hoạt động của khoa năm 2019-2020</a></li>
+							</ul>	
 						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="view-row-1">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-excerpt">
-																		<span class="post-date">
-																			<i class="fas icons8-phone">
-																				<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																			</i>
-																			18/03/2019
-																		</span>
-																		<h5>
-																			<a href="#">
-																				KẾT QUẢ HỌC TẬP - HỌC KỲ 2 NĂM HỌC 2018-2019
-																			</a>
-																		</h5>
-																	</div>
-																	<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																	<div class="tach-khoi"></div>
-																</div>
-															</span>
-														</div>
+					</div>
+					<div class="col-md-4">
+						<div class="item">
+							<div class="region region-tin-tuc">
+								<div class="block block-views">
+									<div class="content">
+										<div class="view">
+											<div class="view-content">
+												<div class="news-box">
+													<div class="views-field views-field-nothing">
+														<span class="field-content">
+															<div class="news-thumb">
+																<a href="#" title="">
+																	<img src="../public/img/tlu_alumnistudents_banner_vi.png" alt="" width="100%">
+																</a>
+															</div>
+															<div class="tach-khoi"></div>
+														</span>
 													</div>
 												</div>
 											</div>
@@ -429,174 +748,16 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="view-row-1">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-excerpt">
-																		<span class="post-date">
-																			<i class="fas icons8-phone">
-																				<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																			</i>
-																			18/03/2019
-																		</span>
-																		<h5>
-																			<a href="#">
-																				THÔNG BÁO VỀ VIỆC PHÁT TÀI LIỆU HỌC TẬP HỌC KỲ PHỤ NĂM HỌC
-																				2019-2020
-																			</a>
-																		</h5>
-																	</div>
-																	<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																	<div class="tach-khoi"></div>
-																</div>
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="col-md-12">
+							<ul style="padding-left: 5px;">
+								<li style="list-style: disc;"><a href="#" title=""> Thông tin cựu sinh viên</a></li>
+								<li style="list-style: disc;"><a href="#" title=""> Các cựu sinh viên có thành tích cao</a></li>
+							</ul>	
 						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-content">
-													<div class="view-row-1">
-														<div class="views-field views-field-nothing">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-excerpt">
-																		<span class="post-date">
-																			<i class="fas icons8-phone">
-																				<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																			</i>
-																			18/03/2019
-																		</span>
-																		<h5>
-																			<a href="#">
-																				THÔNG BÁO KẾ HOẠCH ĐĂNG KÝ HỌC PHẦN CHO HỌC KỲ I NĂM HỌC
-																				2019-2020
-																			</a>
-																		</h5>
-																	</div>
-																	<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																	<div class="tach-khoi"></div>
-																</div>
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="item">
-								<div class="region region-tin-tuc">
-									<div class="block block-views">
-										<div class="content">
-											<div class="view">
-												<div class="view-header">
-													<div class="welcome-title">
-														<strong> Sự kiện</strong>
-														<h1></h1>
-													</div>
-												</div>
-												<div class="view-content">
-													<div class="view-row-1">
-														<div class="views-field">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-thumb">
-																		<div class="img-caption">
-																			<span class="post-date">
-																				<i class="fas icons8-phone">
-																					<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																				</i>
-																				05/06/2019
-																			</span>
-																			<h5>
-																				<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-																			</h5>
-																		</div>
-																		<img src="../public/img/events1_2.jpg" alt="" width="360px" height="227px">
-																	</div>
-																	<div class="tach-khoi"></div>
-																</div>
-															</span>
-														</div>
-													</div>
-													<div class="view-row-2">
-														<div class="views-field">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-thumb">
-																		<div class="img-caption">
-																			<span class="post-date">
-																				<i class="fas icons8-phone">
-																					<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																				</i>
-																				18/04/2019
-																			</span>
-																			<h5>
-																				<a href="#" title="">BẢO VỆ ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN NĂM HỌC 2018 - 2019</a>
-																			</h5>
-																		</div>
-																		<img src="../public/img/tai_xuong_1_1.jpg" alt="" idth="360px" height="227px">
-																	</div>
-																	<div class="tach-khoi"></div>
-																</div>	
-															</span>
-														</div>
-													</div>
-													<div class="view-row-2">
-														<div class="views-field">
-															<span class="field-content">
-																<div class="news-box">
-																	<div class="news-thumb">
-																		<div class="img-caption">
-																			<span class="post-date">
-																				<i class="fas icons8-phone">
-																					<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																				</i>
-																				09/04/2019
-																			</span>
-																			<h5>
-																				<a href="#" title="">HỘI THẢO CDIO 2019 - KHOA CÔNG NGHỆ THÔNG TIN</a>
-																			</h5>
-																		</div>
-																		<img src="../public/img/cdio.png" alt="" idth="360px" height="227px">
-																	</div>
-																	<div class="tach-khoi"></div>
-																</div>	
-															</span>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div><!-- row -->
-				</div><!-- container -->
-			</div>	
+					</div>
+				</div><!-- row -->
+			</div><!-- container -->
+		</div>	
     </section>
     <!-- main -->
     <?php require_once "footer.php";?>

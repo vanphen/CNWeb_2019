@@ -9,8 +9,8 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
-		<link rel="stylesheet" type="text/css" href="css/style1.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/default.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
 		<script  src="../public/js/script.js" type="text/javascript"></script>

@@ -325,7 +325,6 @@ input[type="text"] {
 
 .main {
     min-height: 300px;
-    padding-bottom: 10px;
 }
 
 
@@ -411,7 +410,6 @@ input[type="text"] {
 
 .main {
     min-height: 300px;
-    padding-bottom: 40px;
 }
 
 .row {
@@ -571,7 +569,6 @@ footer .footer_bot .footer_bot-img,
     background: #fff;
     border: 1px solid #fff;
     border-top: none;
-    margin-bottom: 15px;
     min-height: 350px;
 }
 .mainContent-inner {
@@ -837,7 +834,7 @@ a.btn-style-1 {
 
 /* thu */
 .home1-news {
-    padding: 50px 0 0;
+    padding: 15px 0 0;
 }
 .home1-news {
     width: 100%;
@@ -873,6 +870,7 @@ a.btn-style-1 {
 }
 .news-box span.post-date {
     color: #999999;
+    font-size: 25px;
 }
 .news-box:hover {
     box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
@@ -1020,4 +1018,25 @@ a.btn-style-1 {
     padding-bottom: 50px;
     z-index: 999;
     padding-left: 35px;
+}
+.row-white {
+    background-color: #ffffff;
+}
+.Normal, .NormalDisabled, .NormalDeleted {
+    color: #444;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}
+.home-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.news-box a:hover {
+    color:  #ff7800!important;
+}
+.dprt-box h5:hover{
+     color:  #ff7800!important;
 }
