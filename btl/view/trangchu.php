@@ -514,7 +514,7 @@
 														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
 													</h5>
 												</div>
-												<img src="../public/img/events1_2.jpg" alt="">
+												<img src="../public/img/events1_2.jpg" alt="" width="100%">
 											</div>
 											<div class="tach-khoi"></div>
 										</div>
@@ -541,7 +541,7 @@
 														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
 													</h5>
 												</div>
-												<img src="../public/img/tai_xuong_1_1.jpg" alt="">
+												<img src="../public/img/tai_xuong_1_1.jpg" alt="" width="100%">
 											</div>
 											<div class="tach-khoi"></div>
 										</div>
@@ -568,7 +568,7 @@
 														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
 													</h5>
 												</div>
-												<img src="../public/img/cdio.png" alt="">
+												<img src="../public/img/cdio.png" alt="" width="100%">
 											</div>
 											<div class="tach-khoi"></div>
 										</div>

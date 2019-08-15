@@ -924,7 +924,7 @@ a.btn-style-1 {
     font-weight: 600;
 }
 .stitle:after {
-    background: url(/sites/all/themes/fit/assets/images/titleicon.png);
+    /* background: url(/sites/all/themes/fit/assets/images/titleicon.png); */
     width: 20px;
     height: 23px;
     content: "";
