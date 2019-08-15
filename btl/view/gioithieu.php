@@ -1,4 +1,30 @@
 <?php require_once "header.php";?>
+<?php
+	$con=mysqli_connect('localhost','root','','cse_tlu');
+	if($_GET['idanhmuc'])
+	{
+		$idanhmuc =$_GET['idanhmuc'];
+
+// sql
+			// 
+		$sql ="SELECT * FROM `users` ";
+// thuc thi
+			$data = mysqli_query($con,$sql);
+// luutao mot mang 
+			// $row=mysqli_fetch_assoc($data);
+			while ($row=mysqli_fetch_assoc($data)) {
+			    echo $row['email']."<br>";
+			}
+			
+			// echo $row['tendanhmuc'];
+		// echo $idanhmuc;
+	}
+	else{
+			echo 'khong get duoc du lieu';
+		}
+	
+
+?>
 	<div class="location">
 		<div class="inner-page">
 			<main class="main">
@@ -11,7 +37,7 @@
 										<div style="padding-top: 40px;">
 											<img src="../public/img/004.jpg" alt="">
 										</div>
-										<h2 class="title"> Ban chủ nhiệm khoa Công nghệ thông tin</h2>
+										<h2 class="title"> </h2>
 										<div class="description">
 											<p>
 												<strong>

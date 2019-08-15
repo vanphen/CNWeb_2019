@@ -9,8 +9,9 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
-		<link rel="stylesheet" href="../public/css/style.css" href="../public/css/style.css">
-		<link rel="stylesheet" type="text/css" href="../public/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+		<link rel="stylesheet" type="text/css" href="../public/css/default.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
@@ -32,25 +33,9 @@
 								<li>|</li>
 								<li> <a href="#" class="md-trigger" data-modal="modal-2"> Register</a></li>
 								<li>|</li>
-								<li class="language">
-									<span class="language-text"> Ngôn ngữ: </span>
-									<a href="#" title="Tiếng Việt" class="ui-link-white lang-vi">
-										<img src="../public/img/icon-lang-vi.png" alt="">
-									</a>
-									<a href="#" title="Tiếng Anh" class="ui-link-white lang-en">
-										<img src="../public/img/icon-lang-en.png" alt="">
-									</a>
-								</li>
+								
 							</ul>
-							<div class="container-search"> 
-								<div class="dnn_Search">
-									<div class="viewsearch">
-										<i class="ico-search"></i>
-										<input type="text" class="texttimkiem" placeholder="Tim Kiem" autocomplete="off">
-										<input type="image" class="searchbutton" value="tim" src="../public/img/search-icon2.png" width="20px;">
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						<!-- class header_top -->
 					</div>
@@ -84,7 +69,7 @@
 			        		<a class="nav-link" href="trangchu.php" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
 			      		</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="gioithieu.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="gioithieu.php?idanhmuc=1" id="navbarDropdown" role="button" >
         					  	GIỚI THIỆU
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
