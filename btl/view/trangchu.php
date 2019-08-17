@@ -496,86 +496,64 @@
 							<h1></h1>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/events1_2.jpg" alt="" width="100%">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="../public/img/events1_2.jpg" alt="" width="100%">
+					        <div class="overlay">
+					            <h5>
+									<a class="info" href="#">
+										<span class="post-date">
+										<i class="fas icons8-phone">
+											<img src="../public/img/icons8-calendar-48.png" alt="" width="20px">
+										</i>
+										05/06/2019
 									</span>
-								</div>
-							</div>
-						</div>
+									<br>
+									KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
+								</h5>
+					        </div>
+					        <div class="tach-khoi"></div>
+					    </div>
 					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/tai_xuong_1_1.jpg" alt="" width="100%">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
-									</span>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="../public/img/tai_xuong_1_1.jpg" alt="" width="100%">
+					        <div class="overlay">
+					            <h5>
+									<a class="info" href="#">
+										<span class="post-date">
+											<i class="fas icons8-phone">
+												<img src="../public/img/icons8-calendar-48.png" alt="" width="20px">
+											</i>
+											05/06/2019
+										</span>
+										<br>
+										BẢO VỆ ĐỀ TÀI NGHIÊN CỨU KHOA HỌC CỦA SINH VIÊN NĂM HỌC 2018 - 2019
+									</a>
+								</h5>
+					        </div>
+					        <div class="tach-khoi"></div>
+					    </div>
 					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/cdio.png" alt="" width="100%">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
-									</span>
-								</div>
-							</div>
-						</div>
+					<div class="col-md-4 col-sm-6 col-xs-12">
+					    <div class="hovereffect">
+					        <img class="img-responsive" src="../public/img/cdio.png" alt="" width="100%">
+					        <div class="overlay">
+					            <h5>
+									<a class="info" href="#">
+										<span class="post-date">
+											<i class="fas icons8-phone">
+												<img src="../public/img/icons8-calendar-48.png" alt="" width="20px">
+											</i>
+											05/06/2019
+										</span>
+										<br>
+										HỘI THẢO CDIO 2019 - KHOA CÔNG NGHỆ THÔNG TIN
+									</a>
+								</h5>
+					        </div>
+					        <div class="tach-khoi"></div>
+					    </div>
 					</div>
 				</div><!-- row -->
 			</div><!-- container -->
