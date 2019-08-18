@@ -1,4 +1,45 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
+
+$id='1';
+
+if($stmt = $connect->prepare($querry2)){
+	$stmt -> bind_param('i',$id);
+	//ecute
+	$stmt->execute();
+	//get result
+	$result = $stmt->get_result();
+	// get number of rows
+
+
+
+	while ($row = $result->fetch_assoc()) {
+	    $tieude = $row['tieude'];
+	    $image = $row['image'];
+	    $noidung = $row['noidung'];
+	    $loaitin = $row['loaitin'];
+	}
+
+
+
+	    
+	
+
+
+	$stmt ->free_result();
+	$stmt ->close();
+}
+
+$connect->close();
+ ?>
+
+
+
 <div class="location">
 	<div class="container detaiduan">
 		<div class="row">
@@ -11,13 +52,33 @@
 								<img src="../public/img/images.jpg" width="100%" class="img-congtrinhcongbo">	
 							</div>
 							<div class="col-lg-8">
-								<a href="#"><h4>Chương trình CNTT - Việt Nhật</h4></a>
-								<p>Đào tạo chuyên môn ngành công nghệ thông tin theo yêu cầu nhà tuyển dụng và theo quy định của chương trình đào tạo hệ...</p>
+								<a href="#"><h4><?php echo $tieude ?></h4></a>
+								<p><?php echo $noidung ?></p>
 							</div>
 						</div>
 					</div>
-				<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
+				<a  href="<?php echo 'chitiet_daotao.php?id='.$id; ?>" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
 				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				<div class="cardcongtrinh">
 					<div class="container">
 						<div class="row">

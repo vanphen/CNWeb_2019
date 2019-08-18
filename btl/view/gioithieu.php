@@ -1,9 +1,9 @@
 <?php require_once "header.php";?>
 <?php
 	$con=mysqli_connect('localhost','root','','cse_tlu');
-	if($_GET['idanhmuc'])
+	if($_GET['id_danhmuc'])
 	{
-		$idanhmuc =$_GET['idanhmuc'];
+		$idanhmuc =$_GET['id_anhmuc'];
 
 // sql
 			// 

@@ -241,7 +241,7 @@
 																<div class="views-field views-field-nothing">
 																	<span class="field-content">
 																		<div class="news-thumb">
-																			<img src="../public/img/_MG_0881.jpg" alt="" width="100%">
+																			<img class="imgtintuc" src="../public/img/_MG_0881.jpg" alt="" width="100%">
 																		</div>
 																		<div class="news-excerpt">
 																			<span class="post-date">
@@ -285,7 +285,7 @@
 																<div class="views-field views-field-nothing">
 																	<span class="field-content">
 																		<div class="news-thumb">
-																			<img src="../public/img/diemchuanthumb.jpg" alt="" width="100%" height="233px">
+																			<img class="imgtintuc"  src="../public/img/diemchuanthumb.jpg" alt="" width="100%" height="233px">
 																		</div>
 																		<div class="news-excerpt">
 																			<span class="post-date">
@@ -329,7 +329,7 @@
 																<div class="views-field views-field-nothing">
 																	<span class="field-content">
 																		<div class="news-thumb">
-																			<img src="../public/img/diemchuanthumb.jpg" alt="" width="100%">
+																			<img class="imgtintuc" src="../public/img/diemchuanthumb.jpg" alt="" width="100%">
 																		</div>
 																		<div class="news-excerpt">
 																			<span class="post-date">
