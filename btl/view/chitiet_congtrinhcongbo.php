@@ -38,14 +38,6 @@ if(isset($_GET['id'])){
 
 
 
-
-
-
-
-
-
-
-
 		$stmt ->free_result();
 		$stmt ->close();
 	}
@@ -74,7 +66,7 @@ $connect->close();
 							 ?>
 				</div>
 					
-				<a  href="#" class="d-flex justify-content-end trovedautrang"> > tro ve dau trang</a>
+				<a  href="" class="d-flex justify-content-end trovedautrang"> > tro ve dau trang</a>
 				
 
 			</div>

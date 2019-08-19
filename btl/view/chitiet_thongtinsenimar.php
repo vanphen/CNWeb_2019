@@ -1,7 +1,5 @@
 <?php require_once "header.php";?>
 
-
-
 <?php 
 
 // connect php
@@ -36,16 +34,6 @@ if(isset($_GET['id'])){
 			}	
 		}
 
-
-
-
-
-
-
-
-
-
-
 		$stmt ->free_result();
 		$stmt ->close();
 	}
@@ -60,64 +48,54 @@ $connect->close();
 
 
 <div class="location">
+	<div class="container breadcrumb">
+		<a href="nckh.php" title="" class="breadcrumblink"> 
+			<span> Nghiên Cứu   >   </span>
+		</a>
+		<a href="logo.php" title="" class="breadcrumblink">
+			<span> Thông tin senimar </span>
+		</a>
+	
+	</div>
+
 	<div class="container detaiduan">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
-				
-				<div style="padding-top: 40px;">
-					
-				</div>
-				<div class="main w-100">
-						<?php 
-						echo $noidungchitiet;
+			
+		
+		
 
-							 ?>
-				</div>
-					
-				<a  href="#" class="d-flex justify-content-end trovedautrang"> > tro ve dau trang</a>
+
+
+
+				<div class="cardcongtrinh" >
+					<div class="container">
+						<div class="row">
+							<?php echo $noidungchitiet; ?>
+						</div>
+					</div>
 				
+				</div>
+
+
+
 
 			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="daotao.php">Đào tạo</a></h4>
+				<h4><a href="#">Nghiên cứu khoa học</a></h4>
 
 				<ul class="nckh" type="none">
 					<li>
-						<a href="dtdh.php" title=""> > Đào tạo đại học</a>
+						<a href="#" title=""> > Các đề tài,dự án</a>
 					</li>
 					<li> 
-						<a href="dtsdh.php" title=""> > Đào tạo sau đại học</a>
+						<a href="#" title=""> > Thông tin seminar</a>
 					</li>
 					<li>
-						<a href="daura.php" title=""> > Chuẩn đầu ra</a>
+						<a href="#" title=""> > Công trình công bố</a>
 					</li>
 					<li> 
-						<a href="dinhhuong.php" title=""> > Định hướng ngành nghề</a>
-					</li>
-					<li> 
-						<a href="mohinh.php" title=""> > Mô hình đào tạo</a>
-					</li>
-					<li> 
-						<a href="decuong.php" title=""> > Đề cương môn học</a>
+						<a href="#" title=""> > Các đề tài thí nghiệm</a>
 					</li>
 				</ul>
 			</div>

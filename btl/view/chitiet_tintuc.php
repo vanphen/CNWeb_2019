@@ -4,21 +4,52 @@
 // connect php
 include "../controller/connect.php";
 
-$sql = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='su kien' ";
+$querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
 
 
-$result = $connect -> query($sql);
-// check ket qua
+
+if($stmt = $connect->prepare($querry2)){
+  $id=$_GET['id'];
+
+  $stmt -> bind_param('i',$id);
+  //ecute
+  $stmt->execute();
+  //get result
+  $result = $stmt->get_result();
+  // get number of rows
 
 
+
+  while ($row = $result->fetch_assoc()) {
+      $tieude = $row['tieude'];
+      $image = $row['image'];
+      $noidung = $row['noidung'];
+      $loaitin = $row['loaitin'];
+      $date = $row['date'];
+      $noidungchitiet = $row['noidungchitiet'];
+      $id=['id'];
+  }
+
+
+
+      
+  
+
+
+  $stmt ->free_result();
+  $stmt ->close();
+}
+
+$connect->close();
  ?>
+
 <div class="location">
 	<div class="container breadcrumb">
-		<a href="nckh.php" title="" class="breadcrumblink"> 
+		<a href="tintuc.php" title="" class="breadcrumblink"> 
 			<span> Tin tức-thông báo   >   </span>
 		</a>
 		<a href="logo.php" title="" class="breadcrumblink">
-			<span>  Sự kiện</span>
+			<span>  tintuc</span>
 		</a>
 	
 	</div>
@@ -26,51 +57,17 @@ $result = $connect -> query($sql);
 	<div class="container detaiduan">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
-				<a href="#"><h3 style="color: #003478">Sự kiện</h3></a>
-
-				<?php 
-
-				if($result && $result->num_rows >0){
-					
-					while ($row =$result->fetch_assoc()) {
-    // hien thi du lieu
-					?>
-		
-				<div class="cardcongtrinh" >
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/uploadimage/<?php echo $row['image']; ?>" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4><?php echo $row['tieude']; ?></h4></a>
-								<p><?php echo $row['noidung']; ?></p>
-							
-							</div>
-						</div>
-					</div>
-				<a  href="chitiet_sukien.php?id=<?php echo $row['id']; ?>" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
-					<?php  }
-
-				}else{
-					echo 'khong thanh cong '.$connect->error;
-				}
-
-
-				$connect->close();
-
-				?>
-
-
-
+				<?php echo $noidungchitiet; ?>
 			
+
+
+
 
 
 
 			</div>
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="#">Tin tức</a></h4>
+				<h4><a href="">Tin tức</a></h4>
 
 				<ul class="nckh" type="none">
 					<li>

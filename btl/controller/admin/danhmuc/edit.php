@@ -64,7 +64,7 @@ $sql ="UPDATE `chitiet_danhmuc` SET `tieude` =?,`image`=?, `noidung` =?, `loaiti
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
                       // Check if file already exists
         if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-          && $imageFileType != "gif" ) {
+          && $imageFileType != "gif"  && $imageFileType !="jfif" ) {
 
           echo "<script>alert('Xin lỗi !, chỉ file JPG, JPEG, PNG & GIF mới được upload')</script>";
         $uploadOk = 0;

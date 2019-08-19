@@ -1,4 +1,50 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
+
+
+
+if($stmt = $connect->prepare($querry2)){
+	$id=$_GET['id'];
+
+	$stmt -> bind_param('i',$id);
+	//ecute
+	$stmt->execute();
+	//get result
+	$result = $stmt->get_result();
+	// get number of rows
+
+
+
+	while ($row = $result->fetch_assoc()) {
+	    $tieude = $row['tieude'];
+	    $image = $row['image'];
+	    $noidung = $row['noidung'];
+	    $loaitin = $row['loaitin'];
+	    $date = $row['date'];
+	    $noidungchitiet = $row['noidungchitiet'];
+	    $id=['id'];
+	}
+
+
+
+	    
+	
+
+
+	$stmt ->free_result();
+	$stmt ->close();
+}
+
+$connect->close();
+ ?>
+
+
+
 <div class="location">
 	<div class="container breadcrumb">
 		<a href="nckh.php" title="" class="breadcrumblink"> 
@@ -13,13 +59,9 @@
 	<div class="container detaiduan">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
-				<a href=""><h3>Danh sách các phòng thí nghiệm của khoa</h3></a>
-				<div style="margin-top: 15px; margin-left: 10px;">
-							<p>-Phòng thí nghiệm Khoa học dữ liệu:  <a href="" style="color: #003478;">TS. Đặng Thị Thu Hiền</a>- Trưởng Lab</p>
-							<p>-Phòng thí nghiệm Mô hình hóa và mô phỏng:  <a href="" style="color: #003478;">TS. Nguyễn Ngọc Doanh</a>- Trưởng Lab</p>
-							<p>-Phòng thí nghiệm Hệ thống mạng:<a href="" style="color: #003478;">TS. Phạm Tuấn Minh</a>- Trưởng Lab</p>
-				</div>
-					<a  href="cacphongthinghiem.php" class="d-flex justify-content-end trovedautrang"> > Trở về đầu trang</a>
+		
+				<?php echo $noidungchitiet;	 ?>
+					<a  href="" class="d-flex justify-content-end trovedautrang"> > Trở về đầu trang</a>
 		
 
 

@@ -6,7 +6,7 @@ include "../controller/connect.php";
 
 $querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
 
-$id='1';
+$id='13';
 
 if($stmt = $connect->prepare($querry2)){
 	$stmt -> bind_param('i',$id);
@@ -52,8 +52,8 @@ $connect->close();
 								<img src="../public/img/images.jpg" width="100%" class="img-congtrinhcongbo">	
 							</div>
 							<div class="col-lg-8">
-								<a href="#"><h4><?php echo $tieude ?></h4></a>
-								<p><?php echo $noidung ?></p>
+								<a href="#"><h4><?php echo $tieude; ?></h4></a>
+								<p><?php echo $noidung; ?></p>
 							</div>
 						</div>
 					</div>

@@ -42,69 +42,60 @@ if($stmt = $connect->prepare($querry2)){
 
 $connect->close();
  ?>
+
 <div class="location">
 	<div class="container breadcrumb">
-		<a href="nckh.php" title="" class="breadcrumblink"> 
-			<span> Bộ môn-trung tâm   >   </span>
+		<a href="#" title="" class="breadcrumblink"> 
+			<span> Thông báo   >   </span>
 		</a>
-		<a href="logo.php" title="" class="breadcrumblink">
-			<span>  Toán học</span>
+		<a href="thongbao1.php" title="" class="breadcrumblink">
+			<span> Thông báo</span>
 		</a>
-
 	</div>
-
 	<div class="container detaiduan">
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
-				<a href="#"><h3 style="color: #003478"><?php echo $tieude; ?></h3></a>
-        <?php echo $noidungchitiet; ?>
+				<?php echo $noidungchitiet; ?>
+			
+
+
+
+
+
+
+
+
 				
-		
-
-
-	
-		
-
-				<a  href="" class="d-flex justify-content-end trovedautrang"> Trở về đầu trang</a>
-
-
-
 			</div>
 			<div class="col-lg-4 col-md-5 col-12">
-				<h4><a href="#">Tin tức</a></h4>
+				<h4><a href="thongbao.php" style="color: #0f14a1;">Thông báo</a></h4>
 
-			 <ul class="nckh" type="none">
-          <li>
-            <a href="congnghephanmem.php?id=26" title=""> > CN phần mềm </a>
-          </li>
-          <li> 
-            <a href="hethongthongtin.php?id=27" title=""> > Hệ thống thông tin</a>
-          </li>
-
-          <li> 
-            <a href="khoahocmaytinh.php?id=28" title=""> > Khoa học máy tính và mạng</a>
-          </li>
-
-          <li> 
-            <a href="kythuatmaytinh.php?id=29" title=""> > Kỹ thuật máy tính tính toán</a>
-          </li>
-          <li> 
-            <a href="toanhoc.php?id=30" title=""> > Toán học</a>
-          </li>
-          <li> 
-            <a href="tinhocvakythuat.php?id=31" title=""> > Tin học và kỹ thuật</a>
-          </li>
-          <li> 
-            <a href="trungtamtinhoc.php?id=32" title=""> > Trung tâm tin học</a>
-          </li>
-        
-        </ul>
+				<ul class="nckh" type="none">
+					<li>
+						<a href="thongbao1.php" title=""> > Thông báo</a>
+					</li>
+					<li> 
+						<a href="TBdaotao.php" title=""> > TB Đào tạo</a>
+					</li>
+					<li>
+						<a href="nghiencuu.php" title=""> > Nghiên cứu khoa học</a>
+					</li>
+					<li> 
+						<a href="tuyendung.php" title=""> > Tuyển dụng</a>
+					</li>
+					<li> 
+						<a href="hocbong.php" title=""> > Học bổng</a>
+					</li>
+					<li> 
+						<a href="TBkhac.php" title=""> > Thông báo khác</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 	<style type="text/css">
 
-
+	
 		a.d-flex.justify-content-end.trovedautrang {
 			margin-top: 25px;
 			margin-bottom: 20px;

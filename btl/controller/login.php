@@ -91,6 +91,10 @@
 				//get result 
 			$result = $stsm->get_result();
 
+		
+
+		
+
 			$num_of_rows = $result->num_rows;
 			
 
@@ -119,7 +123,7 @@
 	?>
 
 
-
+<h3><?php echo $num_of_rows ; ?></h3>
 	
 
 	<div id="dropDownSelect1"></div>

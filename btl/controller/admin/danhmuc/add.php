@@ -17,14 +17,14 @@ $sql ="INSERT INTO chitiet_danhmuc (tieude, image,noidung,loaitin,noidungchitiet
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
                       // Check if file already exists
         if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
-          && $imageFileType != "gif" $imageFileType !="jfif" ) {
+          && $imageFileType != "gif" && $imageFileType !="jfif" ) {
 
           echo "<script>alert('Xin lỗi !, chỉ file JPG, JPEG,jfif, PNG & GIF mới được upload')</script>";
         $uploadOk = 0;
       }
 
                     // Check file size
-      else if ($_FILES["image"]["size"] > 500000) {
+      else if ($_FILES["image"]["size"] > 1000000) {
 
         echo "<script>alert('Xin lỗi, Kích thước của file quá lớn')</script>";
         $uploadOk = 0;
@@ -195,7 +195,7 @@ $connect->close();
                 <div class="form-group row">
                   <label for="inputEmail3" class="col-sm-2 col-form-label noidungabc" style="padding-right: 2px;">Nội dung :</label>
                   <div class="col-sm-10">
-                    <input type="text" name="noidung" class="form-control" id="inputEmail3" required placeholder="Nội dung">
+                    <input type="text" name="noidung" class="form-control" id="inputEmail3"  placeholder="Nội dung">
                   </div>
                 </div>
                    <div class="form-group row">

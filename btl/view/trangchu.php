@@ -1,4 +1,17 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$sql = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='tin tuc' ";
+
+
+$result = $connect -> query($sql);
+// check ket qua
+
+
+ ?>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -128,7 +141,7 @@
                                              Kể từ khi thành lập, Khoa CNTT đã phát triển không ngừng. Bước trưởng thành quan trọng nhất được thể hiện qua sự đổi mới, kiện toàn chương trình đào tạo. Bắt đầu từ năm 2007, Khoa đã tập trung thực hiện  việc chuyển đổi toàn bộ chương trình, giáo trình đào tạo, thiết kế theo cùng ngành của trường ĐH Michigan- Hoa kỳ. 
                                         </p>
                                         <p>
-                                            <a href="#" class="btn-style-1">Xem chi tiết</a>
+                                            <a href="loichao.php?id=15" class="btn-style-1">Xem chi tiết</a>
                                         </p>
                                     </div>
                                 </div>
@@ -155,7 +168,7 @@
 																	<div class="news-thumb">
 																		<div class="img-caption">
 																			<h3>
-																				<a href="#" title="">Công nghệ thông tin</a>
+																				<a href="khoahocmaytinh.php?id=28" title="">Công nghệ thông tin</a>
 																			</h3>
 																		</div>
 																		<img class="img-responsive" src="../public/img/cong-nghe-thong-tin_0.jpg" alt=""  width="262" height="200">		
@@ -169,7 +182,7 @@
 																	<div class="news-thumb">
 																		<div class="img-caption">
 																			<h3>
-																				<a href="#" title="">Công nghệ phần mềm</a>
+																				<a href="congnghephanmem.php?id=26" title="">Công nghệ phần mềm</a>
 																			</h3>
 																		</div>
 																		<img src="../public/img/phan-mem.jpg" alt="" class="img-responsive" width="262" height="200">		
@@ -185,7 +198,7 @@
 																	<div class="news-thumb">
 																		<div class="img-caption">
 																			<h3>
-																				<a href="#" title="">Kỹ thuật máy tính và mạng</a>
+																				<a href="kythuatmaytinh.php?id=29" title="">Kỹ thuật máy tính và mạng</a>
 																			</h3>
 																		</div>
 																		<img src="../public/img/mang-may-tinh_0.jpg" alt="" class="img-responsive" width="262" height="200">		
@@ -199,7 +212,7 @@
 																<div class="news-thumb">
 																	<div class="img-caption">
 																		<h3>
-																			<a href="#" title="">Hệ thống thông tin</a>
+																			<a href="hethongthongtin.php?id=27" title="">Hệ thống thông tin</a>
 																		</h3>
 																	</div>
 																	<img src="../public/img/cong-nghe-thong-tin_0.jpg" alt="" class="img-responsive" width="262" height="200">		
@@ -227,6 +240,15 @@
 							<h1></h1>
 						</div>
 					</div>
+
+				<?php 
+
+				if($result && $result->num_rows >0){
+					$i =1;
+					while ($row =$result->fetch_assoc()) {
+    // hien thi du lieu
+
+							$i++;?>
 					<div class="col-md-4">
 						<div class="item">
 							<div class="region region-tin-tuc">
@@ -241,22 +263,22 @@
 																<div class="views-field views-field-nothing">
 																	<span class="field-content">
 																		<div class="news-thumb">
-																			<img class="imgtintuc" src="../public/img/_MG_0881.jpg" alt="" width="100%">
+																			<img class="imgtintuc" src="../public/uploadimage/<?php echo $row['image']; ?>" alt="" width="100%">
 																		</div>
 																		<div class="news-excerpt">
 																			<span class="post-date">
 																				<i class="fas icons8-phone">
 																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
 																				</i>
-																				18/03/2019
+																				<?php echo $row['date'];?>
 																			</span>
 																			<h4>
-																				<a href="#">
-																					Chỉ tiêu tuyển sinh và phương thức tuyển sinh Đại học, Cao đẳng năm 2019 - Trường ĐH Thủy Lợi
+																				<a href="chitiet_tintuc.php?id=<?php echo $row['id']; ?>">
+																					<?php echo $row['tieude']; ?>
 																				</a>
 																			</h4>
 																		</div>
-																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
+																		<a href="chitiet_tintuc.php?id=<?php echo $row['id']; ?>" title="" class="news-details"> Xem chi tiết</a>
 																		<div class="tach-khoi"></div>
 																	</span>
 																</div>
@@ -271,94 +293,23 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="item">
-							<div class="region region-tin-tuc">
-								<div class="block block-views">
-									<div class="content">
-										<div class="view">
-											<div class="view-content">
-												<div class="view-row-1">
-													<div class="views-field views-field-nothing">
-														<span class="field-content">
-															<div class="news-box">
-																<div class="views-field views-field-nothing">
-																	<span class="field-content">
-																		<div class="news-thumb">
-																			<img class="imgtintuc"  src="../public/img/diemchuanthumb.jpg" alt="" width="100%" height="233px">
-																		</div>
-																		<div class="news-excerpt">
-																			<span class="post-date">
-																				<i class="fas icons8-phone">
-																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
-																				</i>
-																				18/03/2019
-																			</span>
-																			<h4>
-																				<a href="#">
-																					Điểm chuẩn chính thức các ngành học năm 2019 - Trường ĐH Thủy Lợi
-																				</a>
-																			</h4>
-																		</div>
-																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																		<div class="tach-khoi"></div>
-																	</span>
-																</div>
-															</div>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="item">
-							<div class="region region-tin-tuc">
-								<div class="block block-views">
-									<div class="content">
-										<div class="view">
-											<div class="view-content">
-												<div class="view-row-1">
-													<div class="views-field views-field-nothing">
-														<span class="field-content">
-															<div class="news-box">
-																<div class="views-field views-field-nothing">
-																	<span class="field-content">
-																		<div class="news-thumb">
-																			<img class="imgtintuc" src="../public/img/diemchuanthumb.jpg" alt="" width="100%">
-																		</div>
-																		<div class="news-excerpt">
-																			<span class="post-date">
-																				<i class="fas icons8-phone">
-																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
-																				</i>
-																				18/07/2019
-																			</span>
-																			<h4>
-																				<a href="#">
-																					Điểm chuẩn chính thức các ngành học năm 2019 - Trường ĐH Thủy Lợi
-																				</a>
-																			</h4>
-																		</div>
-																		<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																		<div class="tach-khoi"></div>
-																	</span>
-																</div>
-															</div>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+
+					<?php  }
+
+				}else{
+					echo 'khong thanh cong '.$connect->error;
+				}
+
+
+				
+
+				?>
+
+
+
+
+
+
 				</div>
 			</div>
 		</div>
@@ -371,8 +322,26 @@
 							<h1></h1>
 						</div>
 					</div>
+
+<?php 
+$sql1 = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='thong bao' ";
+
+
+$result1 = $connect -> query($sql1);
+// check ket qua
+		if($result1 && $result1->num_rows >0){
+				
+					while ($row =$result1->fetch_assoc()) {
+    // hien thi du lieu
+
+					
+ ?>
+
+
 					<div class="col-md-4">
-						<div class="item">
+						
+
+								<div class="item">
 							<div class="region region-tin-tuc">
 								<div class="block block-views">
 									<div class="content">
@@ -382,21 +351,26 @@
 													<div class="views-field views-field-nothing">
 														<span class="field-content">
 															<div class="news-box">
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
+																<div class="views-field views-field-nothing">
+																	<span class="field-content">
+																		
+																		<div class="news-excerpt">
+																			<span class="post-date">
+																				<i class="fas icons8-phone">
+																					<img src="../public/img/icons8-calendar-48.png" alt="" width="10px" height="10px">
+																				</i>
+																				<?php echo $row['date'];?>
+																			</span>
+																			<h4>
+																				<a href="chitiet_thongbao.php?id=<?php echo $row['id']; ?>">
+																					<?php echo $row['tieude']; ?>
+																				</a>
+																			</h4>
+																		</div>
+																		<a href="chitiet_thongbao.php?id=<?php echo $row['id']; ?>" title="" class="news-details"> Xem chi tiết</a>
+																		<div class="tach-khoi"></div>
 																	</span>
-																	<h5>
-																		<a href="#">
-																			THÔNG BÁO VỀ KẾT QUẢ HỌC TẬP - HỌC KỲ 2 NĂM HỌC 2018-2019
-																		</a>
-																	</h5>
 																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																<div class="tach-khoi"></div>
 															</div>
 														</span>
 													</div>
@@ -408,178 +382,93 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="item">
-							<div class="region region-tin-tuc">
-								<div class="block block-views">
-									<div class="content">
-										<div class="view">
-											<div class="view-content">
-												<div class="view-row-1">
-													<div class="views-field views-field-nothing">
-														<span class="field-content">
-															<div class="news-box">
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
-																	</span>
-																	<h5>
-																		<a href="#">
-																			THÔNG BÁO VỀ VIỆC PHÁT TÀI LIỆU HỌC TẬP HỌC KỲ PHỤ NĂM HỌC
-																			2019-2020
-																		</a>
-																	</h5>
-																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																<div class="tach-khoi"></div>
-															</div>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="item">
-							<div class="region region-tin-tuc">
-								<div class="block block-views">
-									<div class="content">
-										<div class="view">
-											<div class="view-content">
-												<div class="view-row-1">
-													<div class="views-field views-field-nothing">
-														<span class="field-content">
-															<div class="news-box">
-																<div class="news-excerpt">
-																	<span class="post-date">
-																		<i class="fas icons8-phone">
-																			<img src="../public/img/icons8-calendar-48.png" alt="" width="20" height="20">
-																		</i>
-																		18/03/2019
-																	</span>
-																	<h5>
-																		<a href="#">
-																			THÔNG BÁO KẾ HOẠCH ĐĂNG KÝ HỌC PHẦN CHO HỌC KỲ I NĂM HỌC
-																			2019-2020
-																		</a>
-																	</h5>
-																</div>
-																<a href="#" title="" class="news-details"> Xem chi tiết</a>
-																<div class="tach-khoi"></div>
-															</div>
-														</span>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php  }
+
+				}else{
+					echo 'khong thanh cong '.$connect->error;
+				}
+
+
+				
+
+				?>
+
+
 				</div><!-- row -->
 			</div><!-- container -->
 		</div>
-		 <div class="home1-news portfolio filter-news">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="welcome-title">
-							<strong> SỰ KIỆN</strong>
-							<h1></h1>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/events1_2.jpg" alt="">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/tai_xuong_1_1.jpg" alt="">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="view-content">
-							<div class="view-row-1">
-								<div class="views-field">
-									<span class="field-content">
-										<div class="news-box">
-											<div class="news-thumb">
-												<div class="img-caption">
-													<span class="post-date">
-														<i class="fas icons8-phone">
-															<img src="../public/img/icons8-calendar-48.png" alt="" width="100%">
-														</i>
-														05/06/2019
-													</span>
-													<h5>
-														<a href="#" title="">KHOA CÔNG NGHỆ THÔNG TIN TỔ CHỨC NGHIỆM THU ĐỀ TÀI NCKH CẤP TRƯỜNG - NĂM 2018-2019</a>
-													</h5>
-												</div>
-												<img src="../public/img/cdio.png" alt="">
-											</div>
-											<div class="tach-khoi"></div>
-										</div>
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div><!-- row -->
-			</div><!-- container -->
-		</div>
+
+
+
+
+
+
+
+		<div class="home1-news portfolio filter-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="welcome-title">
+                            <strong> SỰ KIỆN</strong>
+                            <h1></h1>
+                        </div>
+                    </div>
+                    <?php 
+                    $sql2 = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='su kien' ";
+
+
+                    $result2 = $connect -> query($sql2);
+                    // check ket qua
+                            if($result2 && $result2->num_rows >0){
+                                    
+                                        while ($row =$result2->fetch_assoc()) {
+                        // hien thi du lieu
+
+                                        
+                     ?>
+
+
+
+
+
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="../public/uploadimage/<?php echo $row['image']; ?>" alt="" width="100%">
+                            <div class="overlay">
+                                <h5>
+                                    <a class="info" href="chitiet_sukien.php?id=<?php echo $row['id']; ?>">
+                                        <span class="post-date">
+                                        <i class="fas icons8-phone">
+                                            <img src="../public/img/icons8-calendar-48.png" alt="" width="20px">
+                                        </i>
+                                       <?php echo $row['date']; ?>
+                                    </span>
+                                    <br>
+                                 <?php echo $row['tieude']; ?></a>
+                                </h5>
+                            </div>
+                            <div class="tach-khoi"></div>
+                        </div>
+                    </div>
+
+                    <?php  }
+
+                }else{
+                    echo 'khong thanh cong '.$connect->error;
+                }
+
+
+                $connect->close();
+
+                ?>
+
+
+
+
+                 
+                </div><!-- row -->
+            </div><!-- container -->
+        </div>
 		<div class="home1-departments" >
 			<div class="container">
 				<h3 class="stitle">

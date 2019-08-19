@@ -1,4 +1,51 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
+
+
+
+if($stmt = $connect->prepare($querry2)){
+	$id=$_GET['id'];
+
+	$stmt -> bind_param('i',$id);
+	//ecute
+	$stmt->execute();
+	//get result
+	$result = $stmt->get_result();
+	// get number of rows
+
+
+
+	while ($row = $result->fetch_assoc()) {
+	    $tieude = $row['tieude'];
+	    $image = $row['image'];
+	    $noidung = $row['noidung'];
+	    $loaitin = $row['loaitin'];
+	    $date = $row['date'];
+	    $noidungchitiet = $row['noidungchitiet'];
+	    $id=['id'];
+	}
+
+
+
+	    
+	
+
+
+	$stmt ->free_result();
+	$stmt ->close();
+}
+
+$connect->close();
+ ?>
+
+
+
+
 	<div class="location">
 		<div class="container breadcrumb">
 			<a href="gioithieu.php" title="" class="breadcrumblink"> 
@@ -16,19 +63,19 @@
 							<div id="dnn_ContentPane" class="col-md-12">
 								<div class="row row-white">
 									<div class="col-md-9 anh ">
-										<h1 class="title">Logo của khoa</h1>
+										<h1 class="title"><?php echo $tieude; ?></h1>
 										<div class="col-sm-6 logo">
 											<p>
-												<img src="../public/img/CSE logo.jpg" alt="">
+												<img src="<?php echo '../public/uploadimage/'.$image ?>" alt="">
 											</p>
 										</div>
 										<div class="col-sm-6 logo">
 											<p>
-												<img src="../public/img/CSE logo blue.jpg" alt="">
+												<?php echo $noidungchitiet; ?>
 											</p>
 										</div>
 										<div class="unitily clearfix">
-											<a href="logo.php" title="" class="d-flex.justify-content-end.trovedautrang">
+											<a href="logo.php?id=<?php echo $id ?>" title="" class="d-flex.justify-content-end.trovedautrang">
 												<span class="toppage">
 													<u> Trở về đầu trang</u>
 												</span>
