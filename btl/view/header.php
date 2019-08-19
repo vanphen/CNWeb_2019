@@ -11,10 +11,10 @@
 		<meta name="keywords" itemprop="keywords" content="">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
-		<link rel="stylesheet" type="text/css" href="../public/css/default.css">
-		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
+
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -29,29 +29,13 @@
 							<!-- class lable -->
 							<ul class="list-top">
 								<li>(+) | </li>
-								<li> <a href="#" class="md-trigger" data-modal="modal-1">Login</a></li>
+								<li> <a href="../controller/login.php" >Login</a></li>
 								<li>|</li>
-								<li> <a href="#" class="md-trigger" data-modal="modal-2"> Register</a></li>
+								<li> <a href="#" > Register</a></li>
 								<li>|</li>
-								<li class="language">
-									<span class="language-text"> Ngôn ngữ: </span>
-									<a href="#" title="Tiếng Việt" class="ui-link-white lang-vi">
-										<img src="../public/img/icon-lang-vi.png" alt="">
-									</a>
-									<a href="#" title="Tiếng Anh" class="ui-link-white lang-en">
-										<img src="../public/img/icon-lang-en.png" alt="">
-									</a>
-								</li>
+								
 							</ul>
-							<div class="container-search"> 
-								<div class="dnn_Search">
-									<div class="viewsearch">
-										<i class="ico-search"></i>
-										<input type="text" class="texttimkiem" placeholder="Tìm Kiếm" autocomplete="off">
-										<input type="image" class="searchbutton" value="tim" src="../public/img/icons8-search-64.png" width="20px;" height="20px;">
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						<!-- class header_top -->
 					</div>
@@ -85,73 +69,73 @@
 			        		<a class="nav-link" href="trangchu.php" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
 			      		</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="gioithieu.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="gioithieu.php?id_danhmuc=1" id="navbarDropdown" role="button" >
         					  	GIỚI THIỆU
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="logo.php">Logo khoa CNTT</a>
-					          	<a class="dropdown-item" href="loichao.php">Lời chào mừng</a>
-					          	<a class="dropdown-item" href="tochuc.php">Tổ chức</a>
-					          	<a class="dropdown-item" href="hoptac.php">Hợp tác liên kết</a>
+						        <a class="dropdown-item" href="logo.php?id_danhmuc=2">Logo khoa CNTT</a>
+					          	<a class="dropdown-item" href="loichao.php?id_danhmuc=3">Lời chào mừng</a>
+					          	<a class="dropdown-item" href="tochuc.php?id_danhmuc=4">Tổ chức</a>
+					          	<a class="dropdown-item" href="hoptac.php?id_danhmuc=5">Hợp tác liên kết</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
 
-        					<a class="nav-link" href="nckh.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="nckh.php?id_danhmuc=6" id="navbarDropdown" role="button" >
         					 	NGIÊN CỨU KHOA HỌC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="nckhcacdetaiduan.php">Các đề tài, dự án</a>
-					          	<a class="dropdown-item" href="thongtincenima.php">Thông tin seminar</a>
-					          	<a class="dropdown-item" href="congtrinhcongbo.php">Công trình công bố</a>
-					          	<a class="dropdown-item" href="cacphongthinghiem.php">Các phòng thí nghiệm</a>
+						        <a class="dropdown-item" href="nckhcacdetaiduan.php?id_danhmuc=7">Các đề tài, dự án</a>
+					          	<a class="dropdown-item" href="thongtincenima.php?id_danhmuc=8">Thông tin seminar</a>
+					          	<a class="dropdown-item" href="congtrinhcongbo.php?id_danhmuc=9">Công trình công bố</a>
+					          	<a class="dropdown-item" href="cacphongthinghiem.php?id_danhmuc=10">Các phòng thí nghiệm</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="daotao.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="daotao.php?id_danhmuc=11" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	ĐÀO TẠO
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="dtdh.php">Đào tạo đại học</a>
-					          	<a class="dropdown-item" href="dtsdh.php">Đào tạo sau đại học</a>
-					          	<a class="dropdown-item" href="daura.php">Chuẩn đầu ra</a>
-					          	<a class="dropdown-item" href="dinhhuong.php">Định hướng ngành nghề</a>
-					          	<a class="dropdown-item" href="mohinh.php">Mô hình đào tạo</a>
-					          	<a class="dropdown-item" href="decuong.php">Đề cương môn học</a>
+						        <a class="dropdown-item" href="dtdh.php?id_danhmuc=12">Đào tạo đại học</a>
+					          	<a class="dropdown-item" href="dtsdh.php?id_danhmuc=13">Đào tạo sau đại học</a>
+					          	<a class="dropdown-item" href="daura.php?id_danhmuc=14">Chuẩn đầu ra</a>
+					          	<a class="dropdown-item" href="dinhhuong.php?id_danhmuc=15">Định hướng ngành nghề</a>
+					          	<a class="dropdown-item" href="mohinh.php?id_danhmuc=16">Mô hình đào tạo</a>
+					          	<a class="dropdown-item" href="decuong.php?id_danhmuc=17">Đề cương môn học</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" >
         					  	BỘ MÔN - TRUNG TÂM
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="congnghephanmem.php">CN phần mềm</a>
-					          	<a class="dropdown-item" href="hethongthongtin.php">Hệ thống thông tin</a>
-					          	<a class="dropdown-item" href="khoahocmaytinh.php">Khoa học máy tính</a>
-					          	<a class="dropdown-item" href="kythuatmaytinh.php">Kỹ thuật máy tính và mạng</a>
-					          	<a class="dropdown-item" href="toanhoc.php">Toán học</a>
-					          	<a class="dropdown-item" href="tinhocvakythuat.php">Tin học và kỹ thuật tính toán</a>
-					          	<a class="dropdown-item" href="trungtamtinhoc.php">Trung tâm tin học</a>
+						        <a class="dropdown-item" href="congnghephanmem.php?id_danhmuc=19">CN phần mềm</a>
+					          	<a class="dropdown-item" href="hethongthongtin.php?id_danhmuc=20">Hệ thống thông tin</a>
+					          	<a class="dropdown-item" href="khoahocmaytinh.php?id_danhmuc=21">Khoa học máy tính</a>
+					          	<a class="dropdown-item" href="kythuatmaytinh.php?id_danhmuc=22">Kỹ thuật máy tính và mạng</a>
+					          	<a class="dropdown-item" href="toanhoc.php?id_danhmuc=23">Toán học</a>
+					          	<a class="dropdown-item" href="tinhocvakythuat.php?id_danhmuc=24">Tin học và kỹ thuật tính toán</a>
+					          	<a class="dropdown-item" href="trungtamtinhoc.php?id_danhmuc=25">Trung tâm tin học</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="sinhvien.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="sinhvien.php?id_danhmuc=26" id="navbarDropdown" role="button" >
         					  	SINH VIÊN
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="tailieu.php">Tài liệu sinh viên</a>
-					          	<a class="dropdown-item" href="tuvan.php">Tổ tư vấn học tập</a>
-					          	<a class="dropdown-item" href="bieumau.php">Biểu mẫu DATN</a>
-					          	<a class="dropdown-item" href="luanvan.php">Luận văn tốt nghiệp</a>
+						        <a class="dropdown-item" href="tailieu.php?id_danhmuc=27">Tài liệu sinh viên</a>
+					          	<a class="dropdown-item" href="tuvan.php?id_danhmuc=28">Tổ tư vấn học tập</a>
+					          	<a class="dropdown-item" href="bieumau.php?id_danhmuc=29">Biểu mẫu DATN</a>
+					          	<a class="dropdown-item" href="luanvan.php?id_danhmuc=30">Luận văn tốt nghiệp</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="tintuc.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="tintuc.php?id_danhmuc=31" id="navbarDropdown" role="button">
         					  	TIN TỨC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="sukien.php">Sự kiện</a>
-					          	<a class="dropdown-item" href="CSEtrenbao.php">CSE trên báo</a>
+						        <a class="dropdown-item" href="sukien.php?id_danhmuc=32">Sự kiện</a>
+					          	<a class="dropdown-item" href="CSEtrenbao.php?id_danhmuc=33">CSE trên báo</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
@@ -159,105 +143,20 @@
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">
-						        <a class="dropdown-item" href="thongbao1.php">Thông báo</a>
-					          	<a class="dropdown-item" href="TBdaotao.php">TB Đào tạo</a>
-					          	<a class="dropdown-item" href="nghiencuu.php">Nghiên cứu khoa học</a>
-					          	<a class="dropdown-item" href="tuyendung.php">Tuyển dụng</a>
-					          	<a class="dropdown-item" href="hocbong.php">Học bổng</a>
-					          	<a class="dropdown-item" href="TBkhac.php">Thông báo khác</a>
+						        <a class="dropdown-item" href="thongbao1.php?id_danhmuc=34">Thông báo</a>
+					          	<a class="dropdown-item" href="TBdaotao.php?id_danhmuc=35">TB Đào tạo</a>
+					          	<a class="dropdown-item" href="nghiencuu.php?id_danhmuc=36">Nghiên cứu khoa học</a>
+					          	<a class="dropdown-item" href="tuyendung.php?id_danhmuc=37">Tuyển dụng</a>
+					          	<a class="dropdown-item" href="hocbong.php?id_danhmuc=38">Học bổng</a>
+					          	<a class="dropdown-item" href="TBkhac.php?id_danhmuc=39">Thông báo khác</a>
 					        </div>
       					</li>
 			     		<li class="nav-item">
-			        		<a class="nav-link disabled" href="lienhe.php" title="Liên hệ">LIÊN HỆ</a>
+			        		<a class="nav-link disabled" href="lienhe.php?id_danhmuc=40" title="Liên hệ">LIÊN HỆ</a>
 			     		</li>
 			    	</ul>
 			 	</div>
 			</nav>
-					<!-- form login -->
-					<div class="md-modal md-effect-1" id="modal-1">
-						<button class="md-close btn btn-danger ">Close me!</button>
-						<div class="md-content container login-container login-form-1">
-							<h3>ĐĂNG NHẬP </h3>
-							<form>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Email *" value="" />
-									
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control" placeholder="Your Password *" value="" />
-								</div>
-								<div class="form-group">
-									<input type="submit" class="btnSubmit" value="Login" />
-								</div>
-								<div class="form-group">
-									<a href="#" class="ForgetPwd">Forget Password?</a>
-								</div>
-							</form>
-
-
-
-						</div>
-					</div>
-					<!-- // form register -->
-
-					<div class="md-modal md-effect-2" id="modal-2">
-
-						<button class="md-close btn btn-danger  ">Close me!</button>
-
-
-						<div class="md-content container login-container login-form-1">
-
-							<h3>Đăng ký</h3>
-							<form role="form">
-								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
-								</div>
-
-								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
-										</div>
-									</div>
-								</div>
-
-								<input type="submit" value="Register" class="btn btn-primary">
-
-							</form>
-
-						</div>
-					</div>
-
-
-
+				
 								
 
-
-		<div class="md-overlay"></div><!-- the overlay element -->
-
-		<script src="../public/js/classie.js"></script>
-		<script src="../public/js/modalEffects.js"></script>
-		
-		<script>
-			// this is important for IEs
-			var polyfilter_scriptpath = '/js/';
-		</script>
-	
