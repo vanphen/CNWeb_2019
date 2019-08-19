@@ -112,10 +112,6 @@ a:hover {
 
 li {
     font-size: 16px;
-<<<<<<< HEAD
-    color: white;
-=======
->>>>>>> thao
 }
 
 .container-search {
@@ -189,33 +185,8 @@ h6 {
 
 /* search */
 
-<<<<<<< HEAD
-input[type="text"] {
-    background-color: #fff;
-    border: 0px solid #e0e0e0;
-    border-radius: 3px;
-    box-shadow: none;
-    box-sizing: border-box;
-    height: 22px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-    padding: 4px 30px 4px 6px;
-    vertical-align: middle;
-    width: 180px;
-}
-
-.searchbutton {
-    height: 16px;
-    width: 16px;
-    background: url(icon-search.png) no-repeat 0 -72px;
-    margin-top: -10px;
-    font-size: 0px;
-    border: 0px;
-}
-=======
 
 
->>>>>>> thao
 
 .portlet-nested-portlets .portlet-boundary {
     left: 0!important;
@@ -334,10 +305,6 @@ input[type="text"] {
 
 .main {
     min-height: 300px;
-<<<<<<< HEAD
-    padding-bottom: 10px;
-=======
->>>>>>> thao
 }
 
 
@@ -423,10 +390,6 @@ input[type="text"] {
 
 .main {
     min-height: 300px;
-<<<<<<< HEAD
-    padding-bottom: 40px;
-=======
->>>>>>> thao
 }
 
 .row {
@@ -586,10 +549,6 @@ footer .footer_bot .footer_bot-img,
     background: #fff;
     border: 1px solid #fff;
     border-top: none;
-<<<<<<< HEAD
-    margin-bottom: 15px;
-=======
->>>>>>> thao
     min-height: 350px;
 }
 .mainContent-inner {
@@ -855,11 +814,7 @@ a.btn-style-1 {
 
 /* thu */
 .home1-news {
-<<<<<<< HEAD
-    padding: 50px 0 0;
-=======
     padding: 15px 0 0;
->>>>>>> thao
 }
 .home1-news {
     width: 100%;
@@ -895,10 +850,7 @@ a.btn-style-1 {
 }
 .news-box span.post-date {
     color: #999999;
-<<<<<<< HEAD
-=======
     font-size: 25px;
->>>>>>> thao
 }
 .news-box:hover {
     box-shadow: 0 3px 8px rgba(0, 0, 0, .1);
@@ -1046,8 +998,6 @@ a.btn-style-1 {
     padding-bottom: 50px;
     z-index: 999;
     padding-left: 35px;
-<<<<<<< HEAD
-=======
 }
 .row-white {
     background-color: #ffffff;
@@ -1173,5 +1123,4 @@ transform:translatey(0);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
->>>>>>> thao
 }
