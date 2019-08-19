@@ -1,11 +1,24 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$sql = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='tin tuc' ";
+
+
+$result = $connect -> query($sql);
+// check ket qua
+
+
+ ?>
 <div class="location">
 	<div class="container breadcrumb">
-		<a href="nckh.php" title="" class="breadcrumblink"> 
+		<a href="tintuc.php" title="" class="breadcrumblink"> 
 			<span> Tin tức-thông báo   >   </span>
 		</a>
 		<a href="logo.php" title="" class="breadcrumblink">
-			<span>  Sự kiện</span>
+			<span>  tintuc</span>
 		</a>
 	
 	</div>
@@ -14,89 +27,40 @@
 		<div class="row">
 			<div class="col-lg-8 col-md-7 col-12">
 				<a href="#"><h3 style="color: #003478">Sự kiện</h3></a>
+
+				<?php 
+
+				if($result && $result->num_rows >0){
+					$i =1;
+					while ($row =$result->fetch_assoc()) {
+    // hien thi du lieu
+
+							$i++;?>
 		
 				<div class="cardcongtrinh" >
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4">
-								<img src="../public/img/tintuc.jpg" width="100%" class="img-congtrinhcongbo">	
+								<img src="../public/uploadimage/<?php echo $row['image']; ?>" width="100%" class="img-congtrinhcongbo">	
 							</div>
 							<div class="col-lg-8">
-								<a href="#"><h4>Hội thảo "Sử dụng mạng xã hội an toàn - góc nhìn từ tiêu chuẩn cộng đồng facebook"</h4></a>
+								<a href="#"><h4><?php echo $row['tieude']; ?></h4></a>
 							
 							</div>
 						</div>
 					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
+					<a  href="chitiet_tintuc.php?id=<?php echo $row['id']; ?>" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
 				</div>
+					<?php  }
+
+				}else{
+					echo 'khong thanh cong '.$connect->error;
+				}
 
 
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/tintuc1.jpg" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Kết quả nghiên cứu khoa học sinh viên lần thứ 32</h4></a>
-							
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
+				$connect->close();
 
-
-
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/tintuc1.jpg" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Thông báo tuyển sinh đào tạo trình độ thạc sĩ đợt 1 năm 2019</h4></a>
-							
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
-		
-
-
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/tintuc.jpg" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Thông báo tuyển sinh đại học chính quy năm 2019"</h4></a>
-							
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
-
-
-
-
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/image004.gif" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Khoa Công nghệ thông tin ký kết thoả thuận hợp tác với công ty công nghệ NashTech</h4></a>
-							
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
+				?>
 
 
 

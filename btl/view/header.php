@@ -9,12 +9,19 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<meta http-equiv="content-language" itemprop="inLanguage" content="vi">
 		<meta name="keywords" itemprop="keywords" content="">
+<<<<<<< HEAD
 		<link rel="stylesheet" type="text/css" href="css/style1.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/default.css">
 		<link rel="stylesheet" type="text/css" href="../public/css/component.css" />
+=======
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style1.css">
+
+>>>>>>> thao
 		<script  src="../public/js/script.js" type="text/javascript"></script>
 		<title> Khoa công nghệ thông tin đại học Thủy Lợi </title>
+
 </head>
 <body>
 	<div class="wrapper">
@@ -29,20 +36,13 @@
 							<!-- class lable -->
 							<ul class="list-top">
 								<li>(+) | </li>
-								<li> <a href="#" class="md-trigger" data-modal="modal-1">Login</a></li>
+								<li> <a href="../controller/login.php" >Login</a></li>
 								<li>|</li>
-								<li> <a href="#" class="md-trigger" data-modal="modal-2"> Register</a></li>
+								<li> <a href="#" > Register</a></li>
 								<li>|</li>
-								<li class="language">
-									<span class="language-text"> Ngôn ngữ: </span>
-									<a href="#" title="Tiếng Việt" class="ui-link-white lang-vi">
-										<img src="../public/img/icon-lang-vi.png" alt="">
-									</a>
-									<a href="#" title="Tiếng Anh" class="ui-link-white lang-en">
-										<img src="../public/img/icon-lang-en.png" alt="">
-									</a>
-								</li>
+								
 							</ul>
+<<<<<<< HEAD
 							<div class="container-search"> 
 								<div class="dnn_Search">
 									<div class="viewsearch">
@@ -52,6 +52,9 @@
 									</div>
 								</div>
 							</div>
+=======
+							
+>>>>>>> thao
 						</div>
 						<!-- class header_top -->
 					</div>
@@ -85,26 +88,26 @@
 			        		<a class="nav-link" href="trangchu.php" title="Trang chủ">TRANG CHỦ<span class="sr-only">(current)</span></a>
 			      		</li>
 			      		<li class="nav-item dropdown">
-        					<a class="nav-link" href="gioithieu.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="gioithieu.php?id=13" id="navbarDropdown" role="button" >
         					  	GIỚI THIỆU
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="logo.php">Logo khoa CNTT</a>
-					          	<a class="dropdown-item" href="loichao.php">Lời chào mừng</a>
-					          	<a class="dropdown-item" href="tochuc.php">Tổ chức</a>
-					          	<a class="dropdown-item" href="hoptac.php">Hợp tác liên kết</a>
+						        <a class="dropdown-item" href="logo.php?id=14">Logo khoa CNTT</a>
+					          	<a class="dropdown-item" href="loichao.php?id=15">Lời chào mừng</a>
+					          	<a class="dropdown-item" href="tochuc.php?id=16">Tổ chức</a>
+					          	<a class="dropdown-item" href="hoptac.php?id=17">Hợp tác liên kết</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
 
-        					<a class="nav-link" href="nckh.php" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="nckh.php?id=18" id="navbarDropdown" role="button" >
         					 	NGIÊN CỨU KHOA HỌC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="nckhcacdetaiduan.php">Các đề tài, dự án</a>
-					          	<a class="dropdown-item" href="thongtincenima.php">Thông tin seminar</a>
-					          	<a class="dropdown-item" href="congtrinhcongbo.php">Công trình công bố</a>
-					          	<a class="dropdown-item" href="cacphongthinghiem.php">Các phòng thí nghiệm</a>
+						        <a class="dropdown-item" href="nckhcacdetaiduan.php?id=19">Các đề tài, dự án</a>
+					          	<a class="dropdown-item" href="thongtincenima.php?id=21">Thông tin seminar</a>
+					          	<a class="dropdown-item" href="congtrinhcongbo.php?id=22">Công trình công bố</a>
+					          	<a class="dropdown-item" href="cacphongthinghiem.php?id=24">Các phòng thí nghiệm</a>
 					        </div>
       					</li>
 			      		<li class="nav-item dropdown">
@@ -121,21 +124,21 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="#" id="navbarDropdown" role="button" >
         					  	BỘ MÔN - TRUNG TÂM
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						        <a class="dropdown-item" href="congnghephanmem.php">CN phần mềm</a>
-					          	<a class="dropdown-item" href="hethongthongtin.php">Hệ thống thông tin</a>
-					          	<a class="dropdown-item" href="khoahocmaytinh.php">Khoa học máy tính</a>
-					          	<a class="dropdown-item" href="kythuatmaytinh.php">Kỹ thuật máy tính và mạng</a>
-					          	<a class="dropdown-item" href="toanhoc.php">Toán học</a>
-					          	<a class="dropdown-item" href="tinhocvakythuat.php">Tin học và kỹ thuật tính toán</a>
-					          	<a class="dropdown-item" href="trungtamtinhoc.php">Trung tâm tin học</a>
+						        <a class="dropdown-item" href="congnghephanmem.php?id=26">CN phần mềm</a>
+					          	<a class="dropdown-item" href="hethongthongtin.php?id=27">Hệ thống thông tin</a>
+					          	<a class="dropdown-item" href="khoahocmaytinh.php?id=28">Khoa học máy tính</a>
+					          	<a class="dropdown-item" href="kythuatmaytinh.php?id=29">Kỹ thuật máy tính và mạng</a>
+					          	<a class="dropdown-item" href="toanhoc.php?id=30">Toán học</a>
+					          	<a class="dropdown-item" href="tinhocvakythuat.php?id=31">Tin học và kỹ thuật tính toán</a>
+					          	<a class="dropdown-item" href="trungtamtinhoc.php?id=32">Trung tâm tin học</a>
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="sinhvien.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="sinhvien.php" id="navbarDropdown" role="button" >
         					  	SINH VIÊN
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -146,7 +149,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="tintuc.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="tintuc.php" id="navbarDropdown" role="button">
         					  	TIN TỨC
         					</a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -155,7 +158,7 @@
 					        </div>
       					</li>
 			     		<li class="nav-item dropdown">
-        					<a class="nav-link" href="thongbao.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        					<a class="nav-link" href="thongbao1.php" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
         					  	THÔNG BÁO
         					</a>
 					        <div class="dropdown-menu">
@@ -173,91 +176,6 @@
 			    	</ul>
 			 	</div>
 			</nav>
-					<!-- form login -->
-					<div class="md-modal md-effect-1" id="modal-1">
-						<button class="md-close btn btn-danger ">Close me!</button>
-						<div class="md-content container login-container login-form-1">
-							<h3>ĐĂNG NHẬP </h3>
-							<form>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Your Email *" value="" />
-									
-								</div>
-								<div class="form-group">
-									<input type="password" class="form-control" placeholder="Your Password *" value="" />
-								</div>
-								<div class="form-group">
-									<input type="submit" class="btnSubmit" value="Login" />
-								</div>
-								<div class="form-group">
-									<a href="#" class="ForgetPwd">Forget Password?</a>
-								</div>
-							</form>
-
-
-
-						</div>
-					</div>
-					<!-- // form register -->
-
-					<div class="md-modal md-effect-2" id="modal-2">
-
-						<button class="md-close btn btn-danger  ">Close me!</button>
-
-
-						<div class="md-content container login-container login-form-1">
-
-							<h3>Đăng ký</h3>
-							<form role="form">
-								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" name="first_name" id="first_name" class="form-control input-sm" placeholder="First Name">
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
-										</div>
-									</div>
-								</div>
-
-								<div class="form-group">
-									<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
-								</div>
-
-								<div class="row">
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
-										</div>
-									</div>
-									<div class="col-xs-6 col-sm-6 col-md-6">
-										<div class="form-group">
-											<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
-										</div>
-									</div>
-								</div>
-
-								<input type="submit" value="Register" class="btn btn-primary">
-
-							</form>
-
-						</div>
-					</div>
-
-
-
+				
 								
 
-
-		<div class="md-overlay"></div><!-- the overlay element -->
-
-		<script src="../public/js/classie.js"></script>
-		<script src="../public/js/modalEffects.js"></script>
-		
-		<script>
-			// this is important for IEs
-			var polyfilter_scriptpath = '/js/';
-		</script>
-	

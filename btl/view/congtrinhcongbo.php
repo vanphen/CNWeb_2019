@@ -1,4 +1,17 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$sql = "SELECT * FROM `chitiet_danhmuc` WHERE loaitin='cong trinh cong bo' ";
+
+
+$result = $connect -> query($sql);
+// check ket qua
+
+
+ ?>
 <div class="location">
 	<div class="container breadcrumb">
 		<a href="nckh.php" title="" class="breadcrumblink"> 
@@ -16,56 +29,44 @@
 				<a href="#"><h3 style="color: #003478">Công trình công bố</h3></a>
 		
 				<div class="cardcongtrinh" >
+	
+					<?php 
+
+					if($result && $result->num_rows >0){
+						$i =1;
+						while ($row =$result->fetch_assoc()) {
+    // hien thi du lieu
+
+							$i++;?>
+
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-4">
-								<img src="../public/img/congtrinhcongbo.jpg" width="100%" class="img-congtrinhcongbo">	
+								<img src="../public/uploadimage/<?php echo $row['image']; ?>" width="100%" class="img-congtrinhcongbo">	
 							</div>
 							<div class="col-lg-8">
-								<a href="#"><h4>Các công trình công bố năm 2014</h4></a>
-								<p>Danh mục các công trình công bố năm 2014</p>
+								<a href="#"><h4><?php echo $row['tieude']; ?></h4></a>
+								<p><?php echo $row['noidung']; ?></p>
 							</div>
 						</div>
 					</div>
-				<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
+				<a  href="chitiet_congtrinhcongbo.php?id=<?php echo $row['id']; ?>" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
 				</div>
 
 
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/congtrinhcongbo.jpg" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Các công trình công bố từ năm 2015 đến nay</h4></a>
-								<p>Danh mục các công trình công bố từ năm 2015 đến nay</p>
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
+				<?php  }
+
+				}else{
+					echo 'khong thanh cong '.$connect->error;
+				}
 
 
+				$connect->close();
 
-				<div class="cardcongtrinh">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-4">
-								<img src="../public/img/congtrinhcongbo.jpg" width="100%" class="img-congtrinhcongbo">	
-							</div>
-							<div class="col-lg-8">
-								<a href="#"><h4>Các công trình công từ năm 2013 trở về trước</h4></a>
-								<p>Danh mục các công trình công bố năm 2014</p>
-							</div>
-						</div>
-					</div>
-					<a  href="#" class="d-flex justify-content-end trovedautrang"> > Xem chi tiết</a>
-				</div>
+				?>
 
 
-
-			</div>
+		`
 			<div class="col-lg-4 col-md-5 col-12">
 				<h4><a href="#">Nghiên cứu khoa học</a></h4>
 

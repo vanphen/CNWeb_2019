@@ -1,4 +1,48 @@
 <?php require_once "header.php";?>
+<?php 
+
+// connect php
+include "../controller/connect.php";
+
+$querry2 = "SELECT * FROM chitiet_danhmuc where id=?";
+
+
+
+if($stmt = $connect->prepare($querry2)){
+	$id=$_GET['id'];
+
+	$stmt -> bind_param('i',$id);
+	//ecute
+	$stmt->execute();
+	//get result
+	$result = $stmt->get_result();
+	// get number of rows
+
+
+
+	while ($row = $result->fetch_assoc()) {
+	    $tieude = $row['tieude'];
+	    $image = $row['image'];
+	    $noidung = $row['noidung'];
+	    $loaitin = $row['loaitin'];
+	    $date = $row['date'];
+	    $noidungchitiet = $row['noidungchitiet'];
+	    $id=['id'];
+	}
+
+
+
+	    
+	
+
+
+	$stmt ->free_result();
+	$stmt ->close();
+}
+
+$connect->close();
+ ?>
+
 	<div class="location">
 		<div class="inner-page">
 			<main class="main">
@@ -9,28 +53,14 @@
 								<div class="row row-white">
 									<div class="col-md-9 anh ">
 										<div style="padding-top: 40px;">
-											<img src="../public/img/004.jpg" alt="">
+											<img src="../public/img/<?php echo $image; ?>" alt="">
 										</div>
-										<h2 class="title"> Ban chủ nhiệm khoa Công nghệ thông tin</h2>
+										<h2 class="title"> </h2>
 										<div class="description">
-											<p>
-												<strong>
-													Trưởng khoa: Tiến sỹ <a href="#" title=""> Nguyễn Thanh Tùng</a>
-												</strong>
-											</p>
-											<p> Phòng làm việc: P202 Tầng 2 nhà C1 </p>
-											<p> Điện thoại: +84-4-38521442 </p>
-											<p style="padding-bottom: 15px;"> Email: tungnt@tlu.edu.vn </p>
-
-											<p> <strong> Phó trưởng khoa: Thạc sỹ Phạm Xuân Đồng</strong> </p>
-											<p> Phòng làm việc: P203 Tầng 2 nhà C1 </p>
-											<p><strong> Phó trưởng khoa: Tiến sỹ Đặng Thị Thu Hiền</strong></p>
-											<p> Phòng làm việc: P201 Tầng 2 nhà C1 </p>
-											<p><strong> Trợ lý khoa: ThS. Nguyễn Thị Thu Hương</strong></p>
-											<p> Phòng làm việc: P204 Tầng 2 nhà C1 </p>
+											<?php echo $noidungchitiet ?>
 										</div>
 										<div class="unitily clearfix">
-											<a href="gioithieu.php" title="" class="d-flex justify-content-end trovedautrang">
+											<a href="gioithieu.php?id=<?php echo $id; ?>" title="" class="d-flex justify-content-end trovedautrang">
 												<span class="toppage">
 													<u> Trở về đầu trang</u>
 												</span>
