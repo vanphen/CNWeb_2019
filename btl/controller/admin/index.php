@@ -70,6 +70,13 @@
           <i class="fas fa-fw fa-table"></i>
           <span>Bảng</span></a>
       </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="user.php">
+          <i class="fas fa-fw fa-table"></i>
+          <span>user</span></a>
+      </li>
+
     </ul>
 
     <div id="content-wrapper">

@@ -3,7 +3,7 @@
 // connect php
 include "../connect.php";
 
-$sql = "SELECT * FROM chitiet_danhmuc ";
+$sql = "SELECT * FROM users ";
 
 
 $result = $connect -> query($sql);
@@ -94,7 +94,7 @@ $result = $connect -> query($sql);
 
       <div class="container-fluid">
         <div class="pagez" style="display: flex;">  <h2>Danh sách danh mục</h2>
-      <a style="margin-left: 10px;height: 100%;"  href="danhmuc/add.php" class="btn btn-primary  btnadd">Thêm mới</a></div>
+      <a style="margin-left: 10px;height: 100%;"  href="user/add.php" class="btn btn-primary  btnadd">Thêm mới</a></div>
     
                <hr>
         <!-- Breadcrumbs-->
@@ -112,11 +112,11 @@ $result = $connect -> query($sql);
     <thead>
         <tr role="row">
             <th class="sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 15px;">STT</th>
-            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 30px;">Tiêu đề</th>
-            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 118px;">Ảnh</th>
-            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 54px;">Nội dung</th>
-            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 100px;">Loại tin</th>
-              <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 92px;">Ngày</th>
+            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 30px;">userid</th>
+            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 118px;">first_name</th>
+            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending" style="width: 54px;">last_name</th>
+            <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Start date: activate to sort column ascending" style="width: 100px;">email</th>
+              <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 92px;">password</th>
             <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Salary: activate to sort column ascending" style="width: 92px;">Hành Động</th>
         </tr>
     </thead>
@@ -133,14 +133,14 @@ if($result && $result->num_rows >0){
     $i++;?>
      <tr role="row" class="odd">
             <td class="sorting_1"><?php echo $i ?></td>
-            <td><?php echo $row['tieude'] ;?></td>
-            <td><img src="<?php echo '../../public/uploadimage/'.$row['image']; ?>" width="150px" height="100px"></td>
-            <td><?php echo $row['noidung'] ;?></td>
-            <td><?php echo $row['loaitin'] ;?></td>
-            <td><?php echo $row['date'] ;?></td>
+            <td><?php echo $row['userid'] ;?></td>
+                 <td><?php echo $row['first_name'] ;?></td>
+            <td><?php echo $row['last_name'] ;?></td>
+            <td><?php echo $row['email'] ;?></td>
+            <td><?php echo $row['password'] ;?></td>
             <td style="display: flex;">
-              <a    type="button"  class="btn btn-xs btn-info btnsua" href="danhmuc/edit.php?id=<?php echo $row['id']; ?>" style="    margin-right: 15px;"  >Sửa</a>
-              <a  type="button"  class="btn btn-xs btn-info btnxoa"  href="danhmuc/delete.php?id=<?php echo $row['id']; ?>">Xóa</a>
+              <a    type="button"  class="btn btn-xs btn-info btnsua" href="user/edit.php?id=<?php echo $row['userid']; ?>" style="    margin-right: 15px;"  >Sửa</a>
+              <a  type="button"  class="btn btn-xs btn-info btnxoa"  href="user/delete.php?id=<?php echo $row['userid']; ?>">Xóa</a>
             </td>
     </tr>
       

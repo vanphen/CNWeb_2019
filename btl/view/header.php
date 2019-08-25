@@ -30,8 +30,7 @@
 							<ul class="list-top">
 								<li>(+) | </li>
 								<li> <a href="../controller/login.php" >Login</a></li>
-								<li>|</li>
-								<li> <a href="#" > Register</a></li>
+							
 								<li>|</li>
 								
 							</ul>
